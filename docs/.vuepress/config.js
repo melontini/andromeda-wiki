@@ -26,6 +26,11 @@ export default defineUserConfig({
         text: 'Modrinth',
         link: 'https://modrinth.com/mod/m-tweaks',
       },
-    ]
+    ],
+    locales: {
+      '/': {
+        selectLanguageName: 'English',
+      }
+    }
   }),
 })
