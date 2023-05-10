@@ -8,9 +8,9 @@ description: World related tweaks
 
 Randomly, bee nests will fall from their trees making bees inside homeless & if any player is nearby, very angry.
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/videos/bee_fall.webp" width="500">
-
-* the GIF is sped up, btw.
+<div style="display: block;justify-content: center;text-align:center;">
+<img src="/videos/bee_fall.webp" width="500"/>
+</div>
 
 In my tests, it usually takes 0-2 days for a nest to fall.
 

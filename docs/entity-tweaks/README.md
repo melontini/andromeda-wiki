@@ -8,9 +8,9 @@ description: Entity related tweaks
 
 When a bee pollinates a flower, the flower has a chance to spread, similar to grass.
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/104443436/179452972-cb295c66-a0d5-42c7-a427-41531d977fad.gif" width="500">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/videos/bee_flowers.webp" width="500">
 <br/>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/104443436/179453218-a051c25e-b568-4384-bd32-3d9ea25e4b7a.gif" width="500">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/videos/bee_double_flowers.webp" width="500">
 
 ***
 ### Villagers Follow Emerald Blocks 💎 (0.2.2+)
@@ -40,16 +40,16 @@ If a cart has stopped, you have to push it with your hand before it moves.
 
 Allows you to easily connect minecarts to each other with a chain.
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/104443436/219936476-db677373-7cf8-4a12-90b3-333c087a7f8a.gif" width="500">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/videos/cart_linking.gif" width="500">
 
-<details>
-  <summary>How to Link</summary>
+
+::: details How to Link
 
 ***
 
 [Just watch this video](https://melontini.tixte.co/linking.webm)
 
-</details>
+:::
 
 ***
 ### New Minecarts 🛤️ (0.1+)
@@ -63,7 +63,8 @@ Allows you to easily connect minecarts to each other with a chain.
 ***
 ### New Boats 🛶 (0.2+)
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/104443436/177501242-884293c4-3639-4eea-ae5c-dd155ed46066.png" width="500">
+<br/>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/boats.webp" width="500">
 
 * Boat with Chest (1.18.2 only)
 

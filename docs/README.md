@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: Home
-description: Description of this page
+description: m-tweaks wiki
 ---
 
 # Welcome to the m-tweaks wiki!

@@ -8,8 +8,7 @@ description: Item related tweaks
 
 Allows throwing certain items, which would otherwise be useless*
 
-<details>
-  <summary>Throwable items as of 0.5.0</summary>
+::: details Throwable items as of 0.5.0
 
 ***
 
@@ -22,7 +21,7 @@ Allows throwing certain items, which would otherwise be useless*
 
 Ideas welcome! 
 
-</details>
+:::
 
 
 <details>
@@ -34,8 +33,7 @@ There are two ways to add custom behaviors: DataPacks and KubeJS
 
 DataPacks:
 
-<details>
-  <summary>Expand...</summary>
+::: details Expand...
 Unlike KubeJS, datapacks are quite limited and can only execute commands and spawn colored particles (the ones from Ink Sacs and Dyes).
 
 All behaviors must be placed in `mt_item_throw_behavior` of your datapack, along with `recipes`, `tags`, `loot_tables`, etc. The name of the file doesn't matter.
@@ -107,12 +105,11 @@ Other things:
 `spawn_colored_particles`: if true, spawns colored particles, the ones used with Dyes and Ink Sacs.
 
 `particle_colors` the color of your particles, in RGB format.
-</details>
+:::
 
 KubeJS:
 
-<details>
-  <summary>Expand...</summary>
+::: details Expand...
 
 You can easily add new behaviors via reflection in KubeJS
 
@@ -146,7 +143,7 @@ StartupEvents.postInit(event => {
 })
 ```
 
-</details>
+:::
 
 </details>
 
@@ -155,11 +152,13 @@ StartupEvents.postInit(event => {
 
 Shows item durability (in %) if durability is < 100% or item count if count is > 1
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/104443436/208113409-1645799c-eb49-4adf-abbe-8cedd20c9901.png" width="350">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/item-names.png" width="350">
 
 ***
 ### Infinite Totem of Undying ♾️♥️ (0.4.3+)
-<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/104443436/187249403-218c2ca3-5f35-42a1-ae26-2f5d9b01b003.png" width="500">
+
+<br/>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/infinite-totem.webp" width="500">
 
 <sub>Works the same way as normal totem, but infinitely...</sub>
 
@@ -194,5 +193,5 @@ Allows you to "pick up" blocks using minecarts. All contents and some properties
 
 For the sake of balance, you can configure if players can "pick up" spawners.
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/104443436/177003587-f7abae49-ac2c-48c1-aced-573db4a19a16.gif" width="500">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/videos/minecart-block-picking.webp" width="500">
 

@@ -14,7 +14,7 @@ In the config, you can adjust the velocity of the particles for the Creative inv
 
 Removes "Adventure Mode" from the gamemode switcher
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="https://user-images.githubusercontent.com/104443436/232280846-a7397e37-8367-4568-870d-914bc1e39ba3.png" width="350">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/gamemode-switcher.png" width="350">
 
 
 ### Auto-generate Recipe Advancements 📗
@@ -62,7 +62,9 @@ Uploaded data:
 * Environment. (client/server)
 * Enabled Config Options.
 
+::: tip Info
 Data is sent to Mixpanel EU servers. If you disable this option, your profile will be requested for deletion.
+:::
 
 ***
 ### Send Crash Reports 📑
@@ -75,7 +77,9 @@ Uploaded data:
 * Stack Trace.
 * Loaded Mods.
 
+::: tip Info
 Data is sent to Mixpanel EU servers. Unlike analytical data, this data doesn't have a unique ID attached. Everything is sent to a singular Crash UUID (`be4db047-16df-4e41-9121-f1e87618ddea`)
+:::
 
 ***
 ### Enable debug messages 📃 (0.1+)
