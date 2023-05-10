@@ -1,0 +1,14 @@
+{
+  "name": "m-tweaks-wiki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "melontini <104443436+melontini@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.61"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
