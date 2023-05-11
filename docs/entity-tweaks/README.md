@@ -47,7 +47,10 @@ Allows you to easily connect minecarts to each other with a chain.
 
 ***
 
-[Just watch this video](https://melontini.tixte.co/linking.webm)
+<video style="display: block; margin-left: auto; margin-right: auto;" width="560" controls>
+  <source src="/videos/linking.webm" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 :::
 
