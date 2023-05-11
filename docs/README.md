@@ -7,7 +7,7 @@ description: m-tweaks wiki
 # Welcome to the m-tweaks wiki!
 
 <div style="justify-content: center;text-align: center;">
-<a href="https://www.curseforge.com/minecraft/mc-mods/m-tweaks"><img fetchpriority="low" style="margin-right: 5px;" src="https://cf.way2muchnoise.eu/short_639198_downloads.svg" alt="" height="24" /></a><a href="https://modrinth.com/mod/m-tweaks"><img  fetchpriority="low" style="margin-left: 5px;" src="https://img.shields.io/modrinth/dt/TseYlb0f" alt="" height="24" /></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/m-tweaks"><img style="margin-right: 5px;" src="https://cf.way2muchnoise.eu/short_639198_downloads.svg" alt="" height="24" /></a><a href="https://modrinth.com/mod/m-tweaks"><img style="margin-left: 5px;" src="https://img.shields.io/modrinth/dt/TseYlb0f" alt="" height="24" /></a>
 </div>
 
 m-tweaks is a mod where almost everything is added because "What if (thing) in minecraft lol"\
