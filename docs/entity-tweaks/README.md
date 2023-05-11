@@ -75,7 +75,7 @@ Allows you to easily connect minecarts to each other with a chain.
 ### New Boats 🛶 (0.2+)
 
 <br/>
-<img loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/images/boats.webp" width="520">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/boats.webp" width="520">
 
 * Boat with Chest (1.18.2 only)
 

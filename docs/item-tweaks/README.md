@@ -152,13 +152,13 @@ StartupEvents.postInit(event => {
 
 Shows item durability (in %) if durability is < 100% or item count if count is > 1
 
-<img loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/images/item-names.png" width="350">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/item-names.png" width="350">
 
 ***
 ### Infinite Totem of Undying ♾️♥️ (0.4.3+)
 
 <br/>
-<img loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/images/infinite-totem.webp" width="520">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/infinite-totem.webp" width="520">
 
 <sub>Works the same way as normal totem, but infinitely...</sub>
 
