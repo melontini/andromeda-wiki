@@ -8,15 +8,19 @@ description: World related tweaks
 
 Randomly, bee nests will fall from their trees making bees inside homeless & if any player is nearby, very angry.
 
-<div style="display: block;justify-content: center;text-align:center;">
-<img fetchpriority="high" src="/videos/bee_fall.webp" width="500"/>
-</div>
+<video style="display: block; margin-left: auto; margin-right: auto;" width="520" muted autoplay loop>
+  <source src="/videos/bee_fall.webm" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 In my tests, it usually takes 0-2 days for a nest to fall.
 
 Arrows also work!
 
-<img fetchpriority="low" loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/videos/bee_fall_arrow.webp" width="500">
+<video style="display: block; margin-left: auto; margin-right: auto;" width="520" muted autoplay loop>
+  <source src="/videos/bee_fall_arrow.webm" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ***
 ### Temperature Based Crop Growth Speed 🌡️ (0.4+)

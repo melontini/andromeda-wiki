@@ -8,9 +8,15 @@ description: Entity related tweaks
 
 When a bee pollinates a flower, the flower has a chance to spread, similar to grass.
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/videos/bee_flowers.webp" width="500">
+<video style="display: block; margin-left: auto; margin-right: auto;" width="520" muted autoplay loop>
+  <source src="/videos/bee_flowers.webm" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 <br/>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/videos/bee_double_flowers.webp" width="500">
+<video style="display: block; margin-left: auto; margin-right: auto;" width="520" muted autoplay loop>
+  <source src="/videos/bee_double_flowers.webm" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ***
 ### Villagers Follow Emerald Blocks 💎 (0.2.2+)
@@ -40,14 +46,16 @@ If a cart has stopped, you have to push it with your hand before it moves.
 
 Allows you to easily connect minecarts to each other with a chain.
 
-<img loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/videos/cart_linking.gif" width="500">
-
+<video style="display: block; margin-left: auto; margin-right: auto;" width="520" muted autoplay loop>
+  <source src="/videos/cart_linking.webm" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ::: details How to Link
 
 ***
 
-<video style="display: block; margin-left: auto; margin-right: auto;" width="560" controls>
+<video style="display: block; margin-left: auto; margin-right: auto;" width="520" controls>
   <source src="/videos/linking.webm" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -67,7 +75,7 @@ Allows you to easily connect minecarts to each other with a chain.
 ### New Boats 🛶 (0.2+)
 
 <br/>
-<img fetchpriority="low" loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/images/boats.webp" width="500">
+<img loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/images/boats.webp" width="520">
 
 * Boat with Chest (1.18.2 only)
 
