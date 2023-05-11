@@ -40,7 +40,7 @@ If a cart has stopped, you have to push it with your hand before it moves.
 
 Allows you to easily connect minecarts to each other with a chain.
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/videos/cart_linking.gif" width="500">
+<img loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/videos/cart_linking.gif" width="500">
 
 
 ::: details How to Link
@@ -67,7 +67,7 @@ Allows you to easily connect minecarts to each other with a chain.
 ### New Boats 🛶 (0.2+)
 
 <br/>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/boats.webp" width="500">
+<img fetchpriority="low" loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/images/boats.webp" width="500">
 
 * Boat with Chest (1.18.2 only)
 

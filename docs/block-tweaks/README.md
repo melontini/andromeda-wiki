@@ -36,28 +36,28 @@ It has some additional settings:
 
 Allows you to tighten your bow's string inside the fletching table, improving accuracy.
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/fletching.png" width="412">
+<img loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/images/fletching.png" width="412">
 
 ***
 ### Beds Explode Everywhere 🛏️💥 (0.1+)
 
 A joke tweak making beds explode in the overworld.
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/videos/bed_explosion.webp" width="500">
+<img loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/videos/bed_explosion.webp" width="500">
 
 ***
 ### Bed Explosion Power 💥 (0.1+)
 
 :)
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/videos/power_of_the_bed.webp" width="500">
+<img loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/videos/power_of_the_bed.webp" width="500">
 
 ***
 ### Safe Beds 🛌 (0.1+)
 
 Makes beds NOT explode when outside the overworld. Instead, sends the player a friendly message.
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/safe_beds.webp" width="500">
+<img loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/images/safe_beds.webp" width="500">
 
 ***
 ### Leaf Slowdown 🌿🐌 (0.1+)
@@ -71,4 +71,4 @@ Makes it difficult to traverse biomes atop of trees, by slowing entities down wh
 
 Gives players configurable effects when in a configurable range to a campfire.
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/campfire_effects.webp" width="500">
+<img loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/images/campfire_effects.webp" width="500">

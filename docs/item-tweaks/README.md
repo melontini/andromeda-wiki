@@ -152,13 +152,13 @@ StartupEvents.postInit(event => {
 
 Shows item durability (in %) if durability is < 100% or item count if count is > 1
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/item-names.png" width="350">
+<img loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/images/item-names.png" width="350">
 
 ***
 ### Infinite Totem of Undying ♾️♥️ (0.4.3+)
 
 <br/>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/infinite-totem.webp" width="500">
+<img fetchpriority="low" loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/images/infinite-totem.webp" width="500">
 
 <sub>Works the same way as normal totem, but infinitely...</sub>
 
@@ -193,5 +193,5 @@ Allows you to "pick up" blocks using minecarts. All contents and some properties
 
 For the sake of balance, you can configure if players can "pick up" spawners.
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/videos/minecart-block-picking.webp" width="500">
+<img fetchpriority="low" loading="lazy" style="display: block; margin-left: auto; margin-right: auto;" src="/videos/minecart-block-picking.webp" width="500">
 

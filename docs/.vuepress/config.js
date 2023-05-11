@@ -1,6 +1,7 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
+  head: [['link', { rel: 'preload'}]],
   locales: {
     '/': {
       lang: 'en-US',
