@@ -8,6 +8,8 @@ export default defineUserConfig({
     }
   },
   theme: defaultTheme({
+    lastUpdated: false,
+    contributors: false,
     sidebar: [
       `/README.md`,
       '/world-tweaks/README.md',
