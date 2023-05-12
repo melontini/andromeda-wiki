@@ -42,7 +42,7 @@ Makes the player explode after taking any damage. Have fun ❤️
 
 Shows the item inside the item frame.
 
-<video style="display: block; margin-left: auto; margin-right: auto;" width="520" muted autoplay loop>
+<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/tooltips_with_secrets.webm" type="video/mp4">
   Your browser does not support the video tag.
 </video>

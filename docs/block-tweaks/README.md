@@ -43,7 +43,7 @@ Allows you to tighten your bow's string inside the fletching table, improving ac
 
 A joke tweak making beds explode in the overworld.
 
-<video style="display: block; margin-left: auto; margin-right: auto;" width="520" muted autoplay loop>
+<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/bed_explosion.webm" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -53,7 +53,7 @@ A joke tweak making beds explode in the overworld.
 
 :)
 
-<video style="display: block; margin-left: auto; margin-right: auto;" width="520" muted autoplay loop>
+<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/power_of_the_bed.webm" type="video/mp4">
   Your browser does not support the video tag.
 </video>

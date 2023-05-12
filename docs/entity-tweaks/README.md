@@ -8,12 +8,12 @@ description: Entity related tweaks
 
 When a bee pollinates a flower, the flower has a chance to spread, similar to grass.
 
-<video style="display: block; margin-left: auto; margin-right: auto;" width="520" muted autoplay loop>
+<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/bee_flowers.webm" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <br/>
-<video style="display: block; margin-left: auto; margin-right: auto;" width="520" muted autoplay loop>
+<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/bee_double_flowers.webm" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -46,7 +46,7 @@ If a cart has stopped, you have to push it with your hand before it moves.
 
 Allows you to easily connect minecarts to each other with a chain.
 
-<video style="display: block; margin-left: auto; margin-right: auto;" width="520" muted autoplay loop>
+<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/cart_linking.webm" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -55,7 +55,7 @@ Allows you to easily connect minecarts to each other with a chain.
 
 ***
 
-<video style="display: block; margin-left: auto; margin-right: auto;" width="520" controls>
+<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" controls>
   <source src="/videos/linking.webm" type="video/mp4">
   Your browser does not support the video tag.
 </video>
