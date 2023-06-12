@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: World Tweaks
+title: World
 description: World related tweaks
 ---
 

@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Block Tweaks
+title: Blocks
 description: Block related tweaks
 ---
 

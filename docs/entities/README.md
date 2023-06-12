@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Entity Tweaks
+title: Entities
 description: Entity related tweaks
 ---
 

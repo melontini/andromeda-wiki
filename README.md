@@ -1,6 +1,6 @@
 ## m-tweaks wiki
 
-Made with [VuePress](https://v2.vuepress.vuejs.org/)
+Made with [VuePress](https://v2.vuepress.vuejs.org/) hosted on [Cloudflare Pages](https://pages.cloudflare.com/)
 
 ### Translating
 
@@ -22,7 +22,7 @@ In the defineUserConfig block.
   },
 ```
 
-and then in the nested defaultTheme block
+and then in the defineUserConfig.defaultTheme.locales block
 
 ```js
     locales: {
@@ -32,14 +32,16 @@ and then in the nested defaultTheme block
       //after en-us
       '/locale-path/': {
         selectLanguageName: 'Locale Name',
-        sidebar: [//copy over the sidebar and change the links!
+        sidebar: [//copy over the sidebar from defineUserConfig.defaultTheme.sidebar and change the links!
         '/locale-path/README.md',
-        '/locale-path/world-tweaks/README.md',
-        '/locale-path/block-tweaks/README.md',
-        '/locale-path/entity-tweaks/README.md',
-        '/locale-path/item-tweaks/README.md',
+        '/locale-path/world/README.md',
+        '/locale-path/blocks/README.md',
+        '/locale-path/entities/README.md',
+        '/locale-path/items/README.md',
         '/locale-path/bug-fixes/README.md',
-        '/locale-path/misc-tweaks/README.md',
+        '/locale-path/mechanics/README.md',
+        '/locale-path/gui/README.md',
+        '/locale-path/misc/README.md',
     ],
       },
     },

@@ -13,12 +13,14 @@ export default defineUserConfig({
     contributors: false,
     sidebar: [
       `/README.md`,
-      '/world-tweaks/README.md',
-      '/block-tweaks/README.md',
-      '/entity-tweaks/README.md',
-      '/item-tweaks/README.md',
+      '/world/README.md',
+      '/blocks/README.md',
+      '/entities/README.md',
+      '/items/README.md',
       '/bug-fixes/README.md',
-      '/misc-tweaks/README.md',
+      '/mechanics/README.md',
+      '/gui/README.md',
+      '/misc/README.md',
     ],
     navbar: [
       {
