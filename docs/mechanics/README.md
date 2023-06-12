@@ -4,6 +4,27 @@ title: Mechanics
 description: Things and stuff idk
 ---
 
+### Dragon Fight Tweaks 🐉 (0.6.0+)
+
+#### 1. Respawn Crystals
+
+Makes destroyed end crystals to respawn after ~1.6 - 3 minutes. This makes the fight much harder and a bit more annoying.
+
+#### 2. Scale Health by Max Players
+
+Scales dragon's health based on the maximum amount of players that have been to the end during the fight.
+
+the formula is this: `Math.floor((Math.sqrt(500 * i)) * 10)`, where i is the number of players.
+
+#### 3. Shorter Crystal Tracking Range
+
+Reduces the range in which the dragon can heal itself with crystals from 32 blocks to 24 blocks.
+
+#### 4. Shorter Spikes
+
+All newly generated spikes will be shorter.
+
+***
 ### Throwable Items 🥏 (0.5.0+)
 
 Allows throwing certain items, which would otherwise be useless*
