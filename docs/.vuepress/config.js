@@ -5,7 +5,7 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'm-tweaks'
+      title: 'Andromeda'
     }
   },
   theme: defaultTheme({
@@ -25,11 +25,11 @@ export default defineUserConfig({
     navbar: [
       {
         text: 'CurseForge',
-        link: 'https://www.curseforge.com/minecraft/mc-mods/m-tweaks',
+        link: 'https://www.curseforge.com/minecraft/mc-mods/andromeda',
       },
       {
         text: 'Modrinth',
-        link: 'https://modrinth.com/mod/m-tweaks',
+        link: 'https://modrinth.com/mod/andromeda',
       },
     ],
     locales: {

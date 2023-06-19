@@ -24,12 +24,12 @@ A little guide:
 
 All vanilla eggs are supported, including spawn eggs (Modded spawn eggs are supported as long as they use or extend SpawnEggItem class)
 
-You can also add new eggs (actually any item) via datapacks, you can use [this](https://github.com/melontini/m-tweaks/blob/1.19-fabric/src/main/resources/data/m-tweaks/mt_egg_processing/egg.json) as an example
+You can also add new eggs (actually any item) via datapacks, you can use [this](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/mt_egg_processing/egg.json) as an example
 
 It has some additional settings:
 
 * Random Egg Hatch Times, makes egg hatch times a bit more random.
-* Enable Incubator Recipe, enables m-tweaks certified incubator recipe. Don't forget to run /reload!
+* Enable Incubator Recipe, enables andromeda certified incubator recipe. Don't forget to run /reload!
 
 ***
 ### Useful Fletching Table 🏹 (0.3.1+)

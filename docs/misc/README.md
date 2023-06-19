@@ -8,7 +8,7 @@ description: Other tweaks and non-tweaks
 
 > Totally goes well with [RBIP](https://modrinth.com/mod/rbip)
 
-By default, all items are required to unlock a recipe, but you can choose to require only one item if you prefer. Additionally, you can blacklist certain IDs and namespaces from being generated. By default, the minecraft, m-tweaks, and extshape namespaces are blacklisted.
+By default, all items are required to unlock a recipe, but you can choose to require only one item if you prefer. Additionally, you can blacklist certain IDs and namespaces from being generated. By default, the minecraft, andromeda, and extshape namespaces are blacklisted.
 
 The following configuration options are available:
 
@@ -49,7 +49,7 @@ Data is sent to Mixpanel EU servers. If you disable this option, your profile wi
 ***
 ### Send Crash Reports 📑
 
-Upload client crash reports, only if `m-tweaks` is found in the trace.
+Upload client crash reports, only if `andromeda` is found in the trace.
 
 Uploaded data:
 * Mod Version.
