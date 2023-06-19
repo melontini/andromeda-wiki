@@ -1,4 +1,4 @@
-## m-tweaks wiki
+## Andromeda wiki
 
 Made with [VuePress](https://v2.vuepress.vuejs.org/) hosted on [Cloudflare Pages](https://pages.cloudflare.com/)
 
@@ -12,12 +12,12 @@ In the defineUserConfig block.
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'm-tweaks'
+      title: 'Andromeda'
     },
     //after en-us
     '/locale-path/': {
       lang: 'locale-code',
-      title: 'm-tweaks'
+      title: 'Andromeda'
     }
   },
 ```
