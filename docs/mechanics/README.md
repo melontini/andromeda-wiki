@@ -57,7 +57,7 @@ DataPacks:
 ::: details Expand...
 Unlike KubeJS, datapacks are quite limited and can only execute commands and spawn colored particles (the ones from Ink Sacs and Dyes).
 
-All behaviors must be placed in `mt_item_throw_behavior` of your datapack, along with `recipes`, `tags`, `loot_tables`, etc. The name of the file doesn't matter.
+All behaviors must be placed in `am_item_throw_behavior` of your datapack, along with `recipes`, `tags`, `loot_tables`, etc. The name of the file doesn't matter.
 
 Example:
 
