@@ -27,7 +27,7 @@ Arrows also work!
 
 When this option is on, crops will only grow in their preferred temperatures. e.g., Cactuses only grow in desserts, nether and savannas.
 
-This option is data-driven! Checkout [this](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/mt_crop_temperatures/crops/minecraft_wheat.json) for an example and more info.
+This option is data-driven! Checkout [this](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/am_crop_temperatures/crops/minecraft_wheat.json) for an example and more info.
 
 ***
 ### Fast Fire Spread 🔥 (0.2.1+)
