@@ -15,12 +15,23 @@ description: Andromeda wiki
 
 <br/>
 
- <img src="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" width="40" height="40"> [Fabric API](https://modrinth.com/mod/fabric-api) and <img src="https://cdn.modrinth.com/data/9s6osm5g/icon.png" width="40" height="40"> [Cloth Config API](https://modrinth.com/mod/cloth-config) are required!
+ <img alt="Fabric API icon" src="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" width="40" height="40"> [Fabric API](https://modrinth.com/mod/fabric-api) and <img alt="Cloth Config icon" src="https://cdn.modrinth.com/data/9s6osm5g/icon.png" width="40" height="40"> [Cloth Config API](https://modrinth.com/mod/cloth-config) are required!
 
-<img src="https://cdn.modrinth.com/data/mOgUt4GM/icon.png" width="40" height="40"> [Mod Menu](https://modrinth.com/mod/modmenu) and <img src="https://cdn.modrinth.com/data/2RKFTmiB/e2ebd2a3e0b5f30ed8d1084b79c568895a12f656.png" width="40" height="40"> [ToolTipFix](https://modrinth.com/mod/modmenu) are highly recommended!
+<img alt="Mod Menu icon" src="https://cdn.modrinth.com/data/mOgUt4GM/icon.png" width="40" height="40"> [Mod Menu](https://modrinth.com/mod/modmenu) and <img alt="TooltipFix icon" src="https://cdn.modrinth.com/data/2RKFTmiB/e2ebd2a3e0b5f30ed8d1084b79c568895a12f656.png" width="40" height="40"> [ToolTipFix](https://modrinth.com/mod/modmenu) are highly recommended!
 
 <br/>
 
 If you have a feature suggestion, don't hesitate to post it on the [Discussions page](https://github.com/melontini/andromeda/discussions/categories/ideas)!
 
 <p style="font-size: 200%">❤️</p>
+
+::: danger
+This mod is only available on Modrinth, CurseForge and GitHub Actions. If you got this mod from *anywhere* else, it may contain malware similar to [fractureiser](https://github.com/fractureiser-investigation/fractureiser).
+
+See [stop mod reposts](https://stopmodreposts.org/) for more info.
+
+You have been warned!
+:::
+
+
+`This site uses Cloudflare Web Analytics.`
