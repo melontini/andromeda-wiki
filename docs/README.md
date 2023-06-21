@@ -33,5 +33,7 @@ See [stop mod reposts](https://stopmodreposts.org/) for more info.
 You have been warned!
 :::
 
+Help translate this wiki on [GitHub](https://github.com/melontini/andromeda-wiki)! 
+
 
 `This site uses Cloudflare Web Analytics.`

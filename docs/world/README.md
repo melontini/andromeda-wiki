@@ -4,6 +4,12 @@ title: World
 description: World related tweaks
 ---
 
+### Self Planting Crops (0.6.0+)
+
+If possible, crops will plant themselves after some time.
+
+Taken from [TinyTweaks](https://www.curseforge.com/minecraft/mc-mods/tinytweaks) by HephaestusDev
+
 ### Falling Bee Nests 🐝 (0.1+)
 
 Randomly, bee nests will fall from their trees making bees inside homeless & if any player is nearby, very angry.
