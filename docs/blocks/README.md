@@ -32,6 +32,23 @@ It has some additional settings:
 * Enable Incubator Recipe, enables andromeda certified incubator recipe. Don't forget to run /reload!
 
 ***
+### Falling Propagule (0.6.0+)
+
+Fully grown, hanging propagule will fall after some time.
+
+<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
+  <source src="/videos/falling_propagule.webm" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+***
+### Cactus Bottle Filling (0.6.0+)
+
+Allows filling glass bottles using cacti.
+
+The top cactus breaks and drops a dead bush after 3 usages.
+
+***
 ### Useful Fletching Table 🏹 (0.3.1+)
 
 Allows you to tighten your bow's string inside the fletching table, improving accuracy.
