@@ -6,7 +6,7 @@ description: World related tweaks
 
 ### Self Planting Crops (0.6.0+)
 
-If possible, crops will plant themselves after some time.
+If possible, crops will plant themselves after some time. Since 0.7.0 you can white/blacklist plants.
 
 Taken from [TinyTweaks](https://www.curseforge.com/minecraft/mc-mods/tinytweaks) by HephaestusDev
 

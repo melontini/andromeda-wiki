@@ -4,6 +4,14 @@ title: Items
 description: Item related tweaks
 ---
 
+### Lockpick 🔓 (0.7.0+)
+
+A creative only item, which allows opening things that you shouldn't.
+
+As of 0.7.0 you can pick:
+
+* Villager inventories.
+
 ### Slightly Better Item Names ⚒⛏ (0.4.5+)
 
 Shows item durability (in %) if durability is < 100% or item count if count is > 1

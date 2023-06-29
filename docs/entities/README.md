@@ -4,6 +4,14 @@ title: Entities
 description: Entity related tweaks
 ---
 
+### Slime Tweaks 💧 (0.7.0+)
+
+Small slime related tweaks. Each option can be enabled or disabled.
+
+* Small slimes will flee when encountering an enemy.
+* Larger slimes will merge with smaller ones. In combination with the previous option, this can cause some havoc.
+* Slimes slow down enemies when they attack.
+
 ### Bee Flower and Tall Flower Duplication 🌺🐝 (0.3.3+)
 
 When a bee pollinates a flower, the flower has a chance to spread, similar to grass.
