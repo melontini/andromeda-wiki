@@ -39,7 +39,7 @@ Upload analytical data used to see how people use the mod.
 Uploaded data:
 * Mod Version.
 * Minecraft Version.
-* Environment. (client/server)
+* Modloader (Quilt/Fabric)
 * Enabled Config Options.
 
 ::: tip Info
