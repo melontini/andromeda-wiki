@@ -4,6 +4,14 @@ title: Items
 description: Item related tweaks
 ---
 
+### Tooltips 💬 (0.8.0+)
+
+Adds more useful info to various tooltips. You can enable/disable each one.
+
+* Clock. Shows current in-game time.
+* Compass. Shows distance to compass' target.
+* Recovery Compass. Shows distance to the last death spot.
+
 ### Lockpick 🔓 (0.7.0+)
 
 A creative only item, which allows opening things that you shouldn't.
