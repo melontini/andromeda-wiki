@@ -4,6 +4,12 @@ title: Entities
 description: Entity related tweaks
 ---
 
+### Snowball Tweaks ❄ (0.8.0+)
+
+* Set a custom cooldown for snowball usage.
+* Freeze entities on hit.
+* Extinguish entities on hit.
+
 ### Slime Tweaks 💧 (0.7.0+)
 
 Small slime related tweaks. Each option can be enabled or disabled.
