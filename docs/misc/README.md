@@ -32,6 +32,13 @@ Doesn't load mixins if their related option is disabled, improving mod compatibi
 The only downside is that you'd need to restart the game after enabling/disabling any option.
 
 ***
+### Auto-Update Translations 🔁 (0.9.0+)
+
+Tries to download latest translations directly from GitHub.
+
+This will download, if available, your currently selected language and EN-US.
+
+***
 ### Send Optional Data 📊
 
 Upload analytical data used to see how people use the mod.
@@ -40,7 +47,6 @@ Uploaded data:
 * Mod Version.
 * Minecraft Version.
 * Modloader (Quilt/Fabric)
-* Enabled Config Options.
 
 ::: tip Info
 Data is sent to Mixpanel EU servers. If you disable this option, your profile will be requested for deletion.
@@ -52,8 +58,6 @@ Data is sent to Mixpanel EU servers. If you disable this option, your profile wi
 Upload client crash reports, only if `andromeda` is found in the trace.
 
 Uploaded data:
-* Mod Version.
-* Minecraft Version.
 * Stack Trace.
 * Loaded Mods.
 
