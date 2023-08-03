@@ -4,6 +4,18 @@ title: Mechanics
 description: Things and stuff idk
 ---
 
+### [Experimental] Villager Gifting 🎁 (0.9.0+)
+
+Allows you to restore some reputation by giving gifts to villagers!
+
+This option adds 4 new tags:
+* `andromeda:villager_gifts/major_positive` gives 15 reputation
+* `andromeda:villager_gifts/minor_positive` gives 3 reputation
+* `andromeda:villager_gifts/major_negative` takes 15 reputation
+* `andromeda:villager_gifts/minor_negative` takes 3 reputation
+
+You can see default items here: https://github.com/melontini/andromeda/tree/1.19-fabric/src/main/resources/data/andromeda/tags/items/villager_gifts
+
 ### Dragon Fight Tweaks 🐉 (0.6.0+)
 
 #### 1. Respawn Crystals
