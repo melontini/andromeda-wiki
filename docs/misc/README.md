@@ -80,7 +80,7 @@ There are 2 ways you can interact with the manager.
 
 #### 1. Using `fabric.mod.json`.
 
-This might be the easiest method as you don't even need to import Andromeda. Please note that only booleans and the special objects are supported.
+This is probably the easiest way, since you don't even need to import Andromeda. Please note that only booleans and the special objects are supported.
 
 In your `custom` block you can define Andromeda configs. The recommended way is to define a feature as an object with conditions. You must specify `value` and all the other conditions are optional.
 
