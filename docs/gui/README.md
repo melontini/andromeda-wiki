@@ -9,6 +9,8 @@ description: GUI and display related tweaks
 
 Shows item's tooltip instead of name after selecting that item on your hotbar.
 
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/tooltip_not_name.webp" width="450">
+
 ### GUI Particles ✨ (0.4.15+)
 
 This tweak adds particle effects to various GUIs, such as the Anvil, Enchantment Table, Furnace, and even the Creative inventory.
