@@ -16,7 +16,7 @@ The following configuration options are available:
 
 * Ignore Recipes Hidden in the Recipe Book: Enabling this option will prevent the generation of advancements for recipe types that are hidden in the recipe book.
 
-* Blacklisted Namespaces: This option allows you to specify namespaces (part of an ID before ":") to be excluded from advancement generation.
+* Blacklisted Namespaces: This option allows you to specify namespaces (part of an ID before `:`) to be excluded from advancement generation.
 
 * Blacklisted IDs: This option allows you to specify recipe IDs to be excluded from advancement generation.
 
