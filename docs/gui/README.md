@@ -7,7 +7,7 @@ description: GUI and display related tweaks
 
 ###  Tooltip, not Name 💬 (0.8.0+)
 
-Shows item's tooltip instead of name after selecting that item on your hotbar.
+Displays an item's tooltip instead of its name when you select that item on your hotbar.
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/tooltip_not_name.webp" width="450">
 
@@ -27,7 +27,7 @@ Removes "Adventure Mode" from the gamemode switcher
 ***
 ### Item Frame Tooltips 💡 (0.4.4+)
 
-Shows the item inside the item frame.
+Displays an in-world tooltip when you look at item frames.
 
 <video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/tooltips_with_secrets.webm" type="video/mp4">

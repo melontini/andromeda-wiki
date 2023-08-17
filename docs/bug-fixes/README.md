@@ -15,8 +15,8 @@ Kind of ironic.
 > why?
 ***
 ### Frame-Independent Advancement Shadow 🏆 (0.4.5+)
-You know that shadow in the advancements menu when you hover over any advancement?
+You know that shadow in the advancement menu when you hover over an advancement?
 
-Now it won't speed up/slowdown when your frame rate changes.
+Now it won't speed up/slow down when your frame rate changes.
 
 

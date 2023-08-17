@@ -12,15 +12,15 @@ description: Entity related tweaks
 
 ### Slime Tweaks 💧 (0.7.0+)
 
-Small slime related tweaks. Each option can be enabled or disabled.
+Small slime related tweaks. Each option can be turned on or off.
 
-* Small slimes will flee when encountering an enemy.
+* Small slimes will flee when they encounter an enemy.
 * Larger slimes will merge with smaller ones. In combination with the previous option, this can cause some havoc.
-* Slimes slow down enemies when they attack.
+* Slimes will slow down enemies when they attack.
 
 ### Bee Flower and Tall Flower Duplication 🌺🐝 (0.3.3+)
 
-When a bee pollinates a flower, the flower has a chance to spread, similar to grass.
+When a bee pollinates a flower, the flower has a chance to spread, much like grass.
 
 <video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/bee_flowers.webm" type="video/mp4">
@@ -35,18 +35,18 @@ When a bee pollinates a flower, the flower has a chance to spread, similar to gr
 ***
 ### Villagers Follow Emerald Blocks 💎 (0.2.2+)
 
-Makes villagers follow if you have an emerald block in hand.
+Makes villagers follow you when you have an emerald block in your hand.
 
 ***
 ### Better Furnace Minecart 🛤️ (0.1+)
 
-Makes a few changes to furnace mine carts to make them a bit better.
+Makes some changes to the furnace mine wagons to make them a bit better.
 
-- Fuel is now saved as an Integer.
+- Fuel is now stored as an integer.
 
-- You can now configure cart's max allowed fuel. (45000 by default, 2147483647 max)
+- You can now configure the max fuel allowed for the cart. (45000 by default, 2147483647 max)
 
-- The same fuel you can use in a normal furnace is now usable in minecarts with furnace.
+- The same fuel you can use in a normal furnace can now be used in minecarts with a furnace.
 
 ***
 ### Furnace Minecarts Take Fuel When Low 🔥 (0.4.9+)
@@ -56,9 +56,9 @@ Makes furnace minecarts take fuel from nearby inventory carts, such as minecarts
 If a cart has stopped, you have to push it with your hand before it moves.
 
 ***
-### Simple Minecart Linking ⛓ (0.4.9+)
+### Simple Minecart Linking ⛓ (0.4.9 - 0.5.3)
 
-Allows you to easily connect minecarts to each other with a chain.
+Allows you to easily link minecarts together with a chain.
 
 <video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/cart_linking.webm" type="video/mp4">
@@ -79,11 +79,11 @@ Allows you to easily connect minecarts to each other with a chain.
 ***
 ### New Minecarts 🛤️ (0.1+)
 
-- Anvil Minecart, it's slow. Woo-Hoo!
+- Anvil Minecart: It's heavy!
 
-- Note Block Minecart.
+- Note Block Minecart: Works the same way normal note blocks do.
 
-- Jukebox Minecart.
+- Jukebox Minecart: Music on Rails!
 
 ***
 ### New Boats 🛶 (0.2+)
@@ -91,12 +91,12 @@ Allows you to easily connect minecarts to each other with a chain.
 <br/>
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/boats.webp" width="520">
 
-* Boat with Chest (1.18.2 only)
+* Boat with Chest: The long awaited chest boat is now in the game! (1.18.2 only)
 
-* Boat with Furnace
+* Boat with Furnace: I can't believe this – a furnace minecart on water!
 
-* Boat with Hopper
+* Boat with Hopper: Quickly pulls items inside itself.
 
-* Boat with Jukebox
+* Boat with Jukebox: Never get bored while sailing across the ocean again!
 
-* Boat with TNT
+* Boat with TNT: Very unstable, explodes on any collision.

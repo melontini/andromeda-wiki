@@ -8,33 +8,33 @@ description: Block related tweaks
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/incubator.webp" width="520">
 
-A handful machine which will hatch eggs for you!
+A handy little device that hatches eggs for you!
 
-A little guide:
+A small guide:
 
 <div style="float: right;">
 <img src="/images/incubator_guide.webp" width="348">
 <ul><li>(either 1 or 2 will work.)</li></ul>
 </div>
 
-1. Place down the Incubator anywhere you want.
-2. Since this machine can't generate heat on its own, you need to place a campfire below the incubator.
+1. Place the incubator where you want it.
+2. Since this machine cannot generate heat by itself, you will need to place a campfire under the incubator.
 3. Hook up a hopper or just right click with eggs in your hand.
 4. Now wait...
 
-All vanilla eggs are supported, including spawn eggs (Modded spawn eggs are supported as long as they use or extend SpawnEggItem class)
+All vanilla eggs are supported, including spawn eggs (modded spawn eggs are supported as long as they use or extend the SpawnEggItem class).
 
 You can also add new eggs (actually any item) via datapacks, you can use [this](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/am_egg_processing/egg.json) as an example
 
 It has some additional settings:
 
 * Random Egg Hatch Times, makes egg hatch times a bit more random.
-* Enable Incubator Recipe, enables andromeda certified incubator recipe. Don't forget to run /reload!
+* Enable Incubator Recipe, enables the Andromeda certified incubator recipe. Don't forget to run /reload!
 
 ***
 ### Falling Propagule (0.6.0+)
 
-Fully grown, hanging propagule will fall after some time.
+Fully grown, hanging propagules will fall after some time.
 
 <video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/falling_propagule.webm" type="video/mp4">
@@ -44,14 +44,14 @@ Fully grown, hanging propagule will fall after some time.
 ***
 ### Cactus Bottle Filling (0.6.0+)
 
-Allows filling glass bottles using cacti.
+Lets you fill glass bottles with cacti.
 
-The top cactus breaks and drops a dead bush after 3 usages.
+The top cactus will break and drop a dead bush after 3 uses.
 
 ***
 ### Useful Fletching Table 🏹 (0.3.1+)
 
-Allows you to tighten your bow's string inside the fletching table, improving accuracy.
+Allows you to tighten the string of your bow in the fletching table for improved accuracy.
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/fletching.png" width="412">
 
@@ -85,13 +85,13 @@ Makes beds NOT explode when outside the overworld. Instead, sends the player a f
 ***
 ### Leaf Slowdown 🌿🐌 (0.1+)
 
-Makes it difficult to traverse biomes atop of trees, by slowing entities down when on leaves.
+Makes it harder to traverse biomes on trees by slowing entities down when they are on leaves.
 
 []
 
 ***
 ### Campfire Effects 🔥♥️ (0.1+)
 
-Gives players configurable effects when in a configurable range to a campfire.
+Gives players configurable effects when they are within a configurable range of a campfire.
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/campfire_effects.webp" width="520">

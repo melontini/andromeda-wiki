@@ -12,13 +12,13 @@ By default, all items are required to unlock a recipe, but you can choose to req
 
 The following configuration options are available:
 
-* Require All Items: When this option is enabled, players must find all items in a recipe before it unlocks in the recipe book.
+* Require All Items: When this option is enabled, players must find all items in a recipe before it is unlocked in the recipe book.
 
 * Ignore Recipes Hidden in the Recipe Book: Enabling this option will prevent the generation of advancements for recipe types that are hidden in the recipe book.
 
-* Blacklisted Namespaces: This option allows you to specify namespaces (part of an ID before ":") to be excluded from the generation of advancements.
+* Blacklisted Namespaces: This option allows you to specify namespaces (part of an ID before ":") to be excluded from advancement generation.
 
-* Blacklisted IDs: This option allows you to specify recipe IDs to be excluded from the generation of advancements.
+* Blacklisted IDs: This option allows you to specify recipe IDs to be excluded from advancement generation.
 
 ### Minor Inconvenience 💥 (0.4+)
 
@@ -27,9 +27,9 @@ Makes the player explode after taking any damage. Have fun ❤️
 ***
 ### Compat Mode 🧩 (0.4+)
 
-Doesn't load mixins if their related option is disabled, improving mod compatibility.
+Doesn't apply mixins if their related option is disabled, improving mod compatibility.
 
-The only downside is that you'd need to restart the game after enabling/disabling any option.
+The only downside is that you'll have to restart the game after enabling or disabling an option.
 
 ***
 ### Auto-Update Translations 🔁 (0.9.0+)

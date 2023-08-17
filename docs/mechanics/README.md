@@ -24,9 +24,9 @@ Makes destroyed end crystals to respawn after ~1.6 - 3 minutes. This makes the f
 
 #### 2. Scale Health by Max Players
 
-Scales dragon's health based on the maximum amount of players that have been to the end during the fight.
+Scales the dragon's health based on the maximum number of players who have been to the end during the fight.
 
-the formula is this: `Math.floor((Math.sqrt(500 * i)) * 10)`, where i is the number of players.
+The formula is this: `Math.floor((Math.sqrt(500 * i)) * 10)`, where i is the number of players.
 
 #### 3. Shorter Crystal Tracking Range
 
@@ -102,9 +102,9 @@ Example:
 ```
 > When the item hits a block, it will spawn a stone block where it hit. When it hits an entity, it will kill that entity. When it hits anything, it will spawn a lightning bolt and white particles at the impact location.
 
-As you can see, the syntax is pretty simple.
+As you can see, the syntax is quite simple.
 
-`item_id` accepts either 1 ID or an array of as many as you want.
+`item_id` takes either 1 ID or an array of as many as you want.
 
 There are 4 events and 5 command sources:
 
@@ -137,7 +137,7 @@ Other things:
 
 `spawn_colored_particles`: if true, spawns colored particles, the ones used with Dyes and Ink Sacs.
 
-`particle_colors` the color of your particles, in RGB format.
+`particle_colors`: the color of your particles, in RGB format.
 :::
 
 KubeJS:
@@ -185,7 +185,7 @@ StartupEvents.postInit(event => {
 
 Every 2 days, you can blow the "sing" horn to summon a wandering trader.
 
-Please note, wandering traders will still spawn naturally
+Please note that wandering traders will still spawn naturally
 
 You can disable the "doTraderSpawning" gamerule if you don't want them to.
 

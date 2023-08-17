@@ -14,7 +14,7 @@ Adds more useful info to various tooltips. You can enable/disable each one.
 
 ### Lockpick 🔓 (0.7.0+)
 
-A creative only item, which allows opening things that you shouldn't.
+A creative only item that allows you to open things you shouldn't.
 
 As of 0.7.0 you can pick:
 
@@ -34,11 +34,9 @@ Shows item durability (in %) if durability is < 100% or item count if count is >
 
 <sub>Works the same way as normal totem, but infinitely...</sub>
 
-To acquire one of those "totallynotOP" totems, you need to have a level 4 beacon made from diamond or netherite blocks (or both).
-
-Now throw a nether star and a totem on top of the beacon and watch them ascend.
-
-You can also disable ascension in the config and provide your own way to get the totem.
+* To get one of these "totally not OP" totems, you need to have a level 4 beacon made from diamond or netherite blocks (or both).
+* Now throw a nether star and a totem onto the beacon and watch them ascend.
+* You can also disable ascension in the config and create your own way to get the totem.
 
 ***
 ### Balanced Mending ⚒️ (0.4+)
@@ -54,7 +52,7 @@ Inspired by TheMisterEpic's "This Minecraft Enchantment has been BROKEN for 3 YE
 
 Allows you to "pick up" blocks using minecarts. All contents and some properties are copied to the cart.
 
-For the sake of balance, you can configure if players can "pick up" spawners.
+For the sake of balance, you can configure whether players can "pick up" spawners.
 
 <video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/minecart-block-picking.webm" type="video/mp4">
