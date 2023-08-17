@@ -72,7 +72,7 @@ Data is sent to Mixpanel EU servers. Unlike analytical data, this data doesn't h
 
 Used to resolve mod conflicts. Not recommended to turn off.
 
-::: details Working with FeatureManager...
+::: details Working with the FeatureManager...
 
 FeatureManager allows other mods to configure Andromeda.
 
@@ -80,7 +80,7 @@ There are 2 ways you can interact with the manager.
 
 #### 1. Using `fabric.mod.json`.
 
-This is probably the easiest way, since you don't even need to import Andromeda. Please note that only booleans and the special objects are supported.
+This is probably the easiest way, since you don't even need to import Andromeda. Please note that only booleans and special objects are supported.
 
 In your `custom` block you can define Andromeda configs. The recommended way is to define a feature as an object with conditions. You must specify `value` and all the other conditions are optional.
 
@@ -114,7 +114,7 @@ In your `fabric.mod.json` you can define the `andromeda:feature_manager` entrypo
     ]
 ```
 
-This entrypoint is execute very-very early (The `onLoad` of a mixin plugin), so be sure to not call any mixinable classes.
+This entrypoint is executed very-very early (The `onLoad` of a mixin plugin), so be sure to not call any mixinable classes.
 
 In your processor class, you must implement the Runnable interface.
 
@@ -147,7 +147,7 @@ public class MyFeatureProcessors implements Runnable {
 }
 ```
 
-This also replaces the tooltip in the config with the translatable key of `andromeda.config.tooltip.manager.my_cool_mod`. So, be sure to add the correct translation key to tell people why they can't edit this feature.
+This will also replace the tooltip in the config with the translatable key of `andromeda.config.tooltip.manager.my_cool_mod`. So, be sure to add the correct translation key to tell people why they can't edit those feature.
 
 :::
 
