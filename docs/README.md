@@ -23,7 +23,7 @@ description: Andromeda wiki
 
 If you have a feature suggestion, don't hesitate to post it on the [Discussions page](https://github.com/melontini/andromeda/discussions/categories/ideas)!
 
-<p style="font-size: 200%">❤️</p>
+<p style="font-size: 200%">💜</p>
 
 ::: danger
 This mod is only available on Modrinth, CurseForge and GitHub Actions. If you got this mod from *anywhere* else, it may contain malware similar to [fractureiser](https://github.com/fractureiser-investigation/fractureiser).
