@@ -1,7 +1,7 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
-  head: [['link', { rel: 'preload'}]],
+  head: [['link', { rel: 'preload'}], ['link', { rel: 'icon', href: '/favicon.png' }]],
   locales: {
     '/': {
       lang: 'en-US',
