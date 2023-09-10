@@ -22,6 +22,7 @@ export default defineUserConfig({
       '/mechanics/README.md',
       '/gui/README.md',
       '/misc/README.md',
+      '/showcases/README.md',
     ],
     navbar: [
       {
