@@ -22,7 +22,7 @@ description: 方块相关调整
 3. 用漏斗传导物品，或者手持蛋右键它。
 4. 静心等待…
 
-兼容所有原版的蛋，包括刷怪蛋 (只要有使用或延展 SpawnEggItem class，该模组的刷怪蛋就被支持).
+兼容所有原版的蛋，包括刷怪蛋 (只要有使用或延展 SpawnEggItem class，该模组的刷怪蛋就被支持)。
 
 你还可以通过数据包来添加新的蛋，例子详见 [这里](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/am_egg_processing/egg.json)。
 
