@@ -53,7 +53,7 @@ export default defineUserConfig({
         selectLanguageName: 'English',
       },
       '/zh-cn/': {
-        selectLanguageName: 'Simplified Chinese',
+        selectLanguageName: '简体中文',
         sidebar: langSidebar("zh-cn")
       }
     }
