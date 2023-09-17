@@ -31,18 +31,8 @@ and then in the defineUserConfig.defaultTheme.locales block
       },
       //after en-us
       '/locale-path/': {
-        selectLanguageName: 'Locale Name',
-        sidebar: [//copy over the sidebar from defineUserConfig.defaultTheme.sidebar and change the links!
-        '/locale-path/README.md',
-        '/locale-path/world/README.md',
-        '/locale-path/blocks/README.md',
-        '/locale-path/entities/README.md',
-        '/locale-path/items/README.md',
-        '/locale-path/bug-fixes/README.md',
-        '/locale-path/mechanics/README.md',
-        '/locale-path/gui/README.md',
-        '/locale-path/misc/README.md',
-    ],
+        selectLanguageName: 'Locale Name', //Translated lang name
+        sidebar: langSidebar("locale-path"),
       },
     },
 ```
