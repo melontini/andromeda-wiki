@@ -22,7 +22,12 @@ function langSidebar(code) {
 }
 
 export default defineUserConfig({
-  head: [['link', { rel: 'preload' }], ['link', { rel: 'icon', href: '/favicon.png' }]],
+  head: [
+    ['link', { rel: 'preload' }],
+    ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['meta', { name: "robots", content: "noai, noimageai" }]
+  ],
+
   locales: {
     '/': {
       lang: 'en-US',
