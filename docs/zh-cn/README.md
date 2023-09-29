@@ -17,11 +17,11 @@ description: 群星模组维基
 
  <img alt="Fabric API icon" src="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" width="40" height="40"> 模组运行需要同时安装 [Fabric API](https://modrinth.com/mod/fabric-api) 和 <img alt="Cloth Config icon" src="https://cdn.modrinth.com/data/9s6osm5g/icon.png" width="40" height="40"> [Cloth Config API](https://modrinth.com/mod/cloth-config)！
 
-<img alt="Mod Menu icon" src="https://cdn.modrinth.com/data/mOgUt4GM/icon.png" width="40" height="40"> 强烈推荐安装 [Mod Menu](https://modrinth.com/mod/modmenu) and <img alt="TooltipFix icon" src="https://cdn.modrinth.com/data/2RKFTmiB/e2ebd2a3e0b5f30ed8d1084b79c568895a12f656.png" width="40" height="40"> [ToolTipFix](https://modrinth.com/mod/modmenu)！
+<img alt="Mod Menu icon" src="https://cdn.modrinth.com/data/mOgUt4GM/icon.png" width="40" height="40"> 强烈推荐安装 [Mod Menu](https://modrinth.com/mod/modmenu) 和 <img alt="TooltipFix icon" src="https://cdn.modrinth.com/data/2RKFTmiB/e2ebd2a3e0b5f30ed8d1084b79c568895a12f656.png" width="40" height="40"> [ToolTipFix](https://modrinth.com/mod/modmenu)！
 
 <br/>
 
-如果你想建议某个特性，别犹豫，发在这里吧：[Discussions page](https://github.com/melontini/andromeda/discussions/categories/ideas)!
+如果你想建议某个特性，别犹豫，发在这里吧：[讨论页面](https://github.com/melontini/andromeda/discussions/categories/ideas)!
 
 **别忘了看看 [模组介绍](/zh-cn/showcases/)!** 
 
@@ -32,7 +32,7 @@ description: 群星模组维基
 
 这个页面[拒绝模组再分发](https://stopmodreposts.org/)展示了更详细的信息。
 
-You have been warned!
+可别怪我没提醒哦！
 :::
 
 你可以在这里 [GitHub](https://github.com/melontini/andromeda-wiki) 帮助翻译这个维基！
@@ -41,4 +41,4 @@ You have been warned!
 
 `本网站使用Cloudflare Web Analytics进行网站监控。`
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">群星模组维基</span> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/melontini/andromeda-wiki" property="cc:attributionName" rel="cc:attributionURL">melontini 及其他模组贡献者创作，</a> 在 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License 下</a>。
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">群星模组维基</span>由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/melontini/andromeda-wiki" property="cc:attributionName" rel="cc:attributionURL">melontini 及其他模组贡献者创作，</a>在 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License 下</a>。
