@@ -8,7 +8,7 @@ description: Andromeda wiki
 
 # Welcome to the Andromeda wiki!
 
-<a href="https://www.curseforge.com/minecraft/mc-mods/andromeda"><img style="margin-right: 5px;" src="https://cf.way2muchnoise.eu/short_639198_downloads.svg" alt="" height="24" /></a><a href="https://donate.melontini.me/"><img style="margin-right: 5px; margin-left: 5px;" src="https://img.shields.io/badge/support-me-a500ff" alt="" height="24" /></a><a href="https://modrinth.com/mod/andromeda"><img style="margin-left: 5px;" src="https://img.shields.io/modrinth/dt/TseYlb0f" alt="" height="24" /></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/andromeda"><img style="margin-right: 5px;" src="https://img.shields.io/curseforge/dt/639198?logo=curseforge&color=orange" alt="" height="24" /></a><a href="https://donate.melontini.me/"><img style="margin-right: 5px; margin-left: 5px;" src="https://img.shields.io/badge/support-me-a500ff" alt="" height="24" /></a><a href="https://modrinth.com/mod/andromeda"><img style="margin-left: 5px;" src="https://img.shields.io/modrinth/dt/TseYlb0f?logo=modrinth&color=mint" alt="" height="24" /></a>
 </div>
 
 <p style="font-size: 120%">A galaxy is a collection of things and systems. So is this mod.</p>
