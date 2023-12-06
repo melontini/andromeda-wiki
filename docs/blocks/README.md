@@ -24,7 +24,7 @@ A small guide:
 
 All vanilla eggs are supported, including spawn eggs (modded spawn eggs are supported as long as they use or extend the SpawnEggItem class).
 
-You can also add new eggs (actually any item) via datapacks, you can use [this](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/am_egg_processing/egg.json) as an example
+You can also add new eggs (actually any item) via datapacks, you can use [this](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/andromeda/egg_processing/egg.json) as an example
 
 It has some additional settings:
 
@@ -74,6 +74,13 @@ A joke tweak making beds explode in the overworld.
   <source src="/videos/power_of_the_bed.webm" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+***
+### Guarded Loot 🛡 (1.0.0+)
+
+Have you ever raided a bastion? You may have noticed that it is very easy to dig under the chest and loot from underneath. 
+
+Well, this tweak forces you to kill every monster around the chest before you can loot it. Attempting to open the chest will highlight all the monsters you need to kill. Pretty RPG-esque!
 
 ***
 ### Safe Beds 🛌 (0.1+)

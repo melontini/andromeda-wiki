@@ -56,20 +56,14 @@ Ideas welcome!
 
 :::
 
+There's an additional option available: Can Zombies Throw Items?
 
-<details>
-  <summary>Adding Custom Behaviors</summary>
+With this on, zombies will throw any throwable items they pick up.
 
-***
+::: details Adding Custom Behaviors
+Datapacks are quite limited and can only execute commands and spawn colored particles (the ones from Ink Sacs and Dyes).
 
-There are two ways to add custom behaviors: DataPacks and KubeJS
-
-DataPacks:
-
-::: details Expand...
-Unlike KubeJS, datapacks are quite limited and can only execute commands and spawn colored particles (the ones from Ink Sacs and Dyes).
-
-All behaviors must be placed in `am_item_throw_behavior` of your datapack, along with `recipes`, `tags`, `loot_tables`, etc. The name of the file doesn't matter.
+All behaviors must be placed in `andromeda/item_throw_behavior` of your datapack, along with `recipes`, `tags`, `loot_tables`, etc. The name of the file doesn't matter.
 
 Example:
 
@@ -129,6 +123,8 @@ Other things:
 
 `override_vanilla` If true, prevents **ALL** vanilla behaviors from being executed. This should never be used on block items, as it will make the block unplaceable.
 
+`disabled`: Disables all behaviors for this item.
+
 `complement`: if false, this behavior overrides the default behavior of the item, if true, it runs before it.
 
 `cooldown`: set a custom cooldown for your item.
@@ -139,46 +135,6 @@ Other things:
 
 `particle_colors`: the color of your particles, in RGB format.
 :::
-
-KubeJS:
-
-::: details Expand...
-
-You can easily add new behaviors via reflection in KubeJS
-
-Example:
-
-Works with KJS 6
-
-```javascript
-const ItemBehaviorManager = Java.loadClass("me.melontini.tweaks.util.ItemBehaviorManager") 
-const ItemBehaviorAdder = Java.loadClass("me.melontini.tweaks.util.ItemBehaviorAdder") //You can use a better name.
-
-StartupEvents.postInit(event => {
-	ItemBehaviorManager.addBehavior(Item.of("cobblestone") , (stack, flyingItemEntity, world, user, hitResult) => {
-             if (!world.isClientSide()) {//keep most things off-client
-                //do something
-		ItemBehaviorAdder.sendParticlePacketInt(flyingItemEntity, flyingItemEntity.position(), stack, true, 255, 255, 255)
-	     }
-	})
-        // You can also add in bulk
-	ItemBehaviorManager.addBehavior((stack, flyingItemEntity, world, user, hitResult) => {
-             if (!world.isClientSide()) {//keep most things off-client
-                //do something
-		ItemBehaviorAdder.sendParticlePacketInt(flyingItemEntity, flyingItemEntity.position(), stack, true, 255, 255, 255)
-	     }
-	}, Item.of("cobblestone"), Item.of("tuff"), Item.of("dripstone_block"))
-        // Custom cooldowns
-	ItemBehaviorManager.addCustomCooldown(Item.of("cobblestone"), 0);
-	ItemBehaviorManager.replaceCustomCooldown(Item.of("cobblestone"), 5);
-        // Only run custom behaviors.
-        ItemBehaviorManager.overrideVanilla(Item.of("cobblestone"));
-})
-```
-
-:::
-
-</details>
 
 ***
 ### Wandering Trader Horn 🐐 (0.4+)

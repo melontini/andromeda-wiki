@@ -4,11 +4,25 @@ title: Entities
 description: Entity related tweaks
 ---
 
+### Zombies Don't Pick up Garbage (1.0.0+)
+
+This prevents zombies from picking up things like rotten flesh. If [Throwable Items](/mechanics/#throwable-items-🥏-0-5-0) are on, zombies will also pick up those.
+
+You can add your own items with the `andromeda:zombies_pick_up` tag!
+
+### All Zombies Can Pick up Items (1.0.0+)
+
+A companion tweak to the previous one. 
+
+In vanilla, only some zombies can pick up items. The higher the difficulty, the more zombies can pick up items. This tweak allows all zombies to pick up items, regardless of difficulty.
+
 ### Snowball Tweaks ❄ (0.8.0+)
 
 * Set a custom cooldown for snowball usage.
 * Freeze entities on hit.
 * Extinguish entities on hit.
+* Melt When on Fire: Snowballs will melt if set on fire.
+* Build Up Layers: Snowballs will freeze water and build up snow layers on hit.
 
 ### Slime Tweaks 💧 (0.7.0+)
 
@@ -36,6 +50,8 @@ When a bee pollinates a flower, the flower has a chance to spread, much like gra
 ### Villagers Follow Emerald Blocks 💎 (0.2.2+)
 
 Makes villagers follow you when you have an emerald block in your hand.
+
+You can specify additional items using the `andromeda:tempting_for_villagers` tag.
 
 ***
 ### Better Furnace Minecart 🛤️ (0.1+)
