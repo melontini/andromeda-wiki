@@ -56,20 +56,14 @@ description: 一些机制，还有一些数不上名的小玩意
 
 :::
 
+现在有一个新的选项：僵尸能投掷物品吗？
 
-<details>
-  <summary>添加自定义行为</summary>
+若启用，僵尸将能够投掷它们所拾起的可投掷物品。
 
-***
+::: 关于添加自定义投掷行为
+数据包能做的很有限，只能执行命令和生成带颜色的粒子（就像墨囊和染料那样）。
 
-目前有两种增加自定义行为的方法：数据包和 KubeJS
-
-数据包：
-
-::: details 展开…
-与 KubeJS 不同，数据包有诸多限制，并且只能执行命令与生成彩色粒子（比如墨囊和发光墨囊）。
-
-所有自定义行为需要和 `recipes`, `tags`, `loot_tables` 一块，放置在数据包的 `am_item_throw_behavior` 文件夹下。自定义行为的具体文件名可以任意取定。
+所有自定义行为需要和 `recipes`, `tags`, `loot_tables` 一块，放置在数据包的 `andromeda/item_throw_behavior` 文件夹下。自定义行为的具体文件名可以任意取定。
 
 例子：
 
@@ -129,6 +123,8 @@ description: 一些机制，还有一些数不上名的小玩意
 
 `override_vanilla`：若为 true，阻止执行**所有**原版的行为。因为这会导致方块无法被放置，它永远不应该被用到方块类物品上。
 
+`disabled`: 禁用该物品的所有自定义投掷行为。
+
 `complement`：若为 false，自定义的行为将覆盖它原本的行为，若为 true，则将在它执行完原本的行为前执行自定义行为。
 
 `cooldown`：为物品设置自定义的冷却时间。
@@ -139,46 +135,6 @@ description: 一些机制，还有一些数不上名的小玩意
 
 `particle_colors`：RGB格式，粒子效果的颜色。
 :::
-
-KubeJS：
-
-::: details 展开…
-
-你可以通过 KubeJS 中的 reflection 实现自定义行为
-
-例子：
-
-在 KJS 6 下运行
-
-```javascript
-const ItemBehaviorManager = Java.loadClass("me.melontini.tweaks.util.ItemBehaviorManager") 
-const ItemBehaviorAdder = Java.loadClass("me.melontini.tweaks.util.ItemBehaviorAdder") //你可以取一个更好的名字
-
-StartupEvents.postInit(event => {
-	ItemBehaviorManager.addBehavior(Item.of("cobblestone") , (stack, flyingItemEntity, world, user, hitResult) => {
-             if (!world.isClientSide()) {//让几乎所有东西在非客户端上执行
-                //做点啥
-		ItemBehaviorAdder.sendParticlePacketInt(flyingItemEntity, flyingItemEntity.position(), stack, true, 255, 255, 255)
-	     }
-	})
-        // 你也可以在主体中添加
-	ItemBehaviorManager.addBehavior((stack, flyingItemEntity, world, user, hitResult) => {
-             if (!world.isClientSide()) {//让几乎所有东西在非客户端上执行
-                //做点啥
-		ItemBehaviorAdder.sendParticlePacketInt(flyingItemEntity, flyingItemEntity.position(), stack, true, 255, 255, 255)
-	     }
-	}, Item.of("cobblestone"), Item.of("tuff"), Item.of("dripstone_block"))
-        // 自定义冷却
-	ItemBehaviorManager.addCustomCooldown(Item.of("cobblestone"), 0);
-	ItemBehaviorManager.replaceCustomCooldown(Item.of("cobblestone"), 5);
-        // 只触发自定义行为
-        ItemBehaviorManager.overrideVanilla(Item.of("cobblestone"));
-})
-```
-
-:::
-
-</details>
 
 ***
 ### 流浪商人号角 🐐 （0.4+）

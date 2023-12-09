@@ -24,7 +24,7 @@ description: 方块相关调整
 
 兼容所有原版的蛋，包括刷怪蛋 (只要有使用或延展 SpawnEggItem class，该模组的刷怪蛋就被支持)。
 
-你还可以通过数据包来添加新的蛋，例子详见 [这里](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/am_egg_processing/egg.json)。
+你还可以通过数据包来添加新的蛋，例子详见 [这里](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/andromeda/egg_processing/egg.json)。
 
 这里是一些额外的设置项：
 
@@ -74,6 +74,13 @@ description: 方块相关调整
   <source src="/videos/power_of_the_bed.webm" type="video/mp4">
   你的浏览器不支持视频标签。
 </video>
+
+***
+### 宝藏守卫 🛡 (1.0.0+)
+
+还记得你是怎么洗劫猪灵堡垒的吗？很多时候：往上一挖，宝箱一开，提包走人就完事了。
+
+在这个特性里，玩家必须击杀周围的怪物，才能打开箱子（未生成战利品的）。尝试打开将高亮周围你需要击杀的怪物。是不是很 RPG？
 
 ***
 ### 安眠之榻 🛌 （0.1+）

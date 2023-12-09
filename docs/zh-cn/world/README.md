@@ -33,7 +33,7 @@ description: 世界相关调整
 
 启用此特性时，植物只会在它们适应的温度中生长，比如说，仙人掌只会在沙漠、热带草原，以及下界中生长。
 
-这一选项是基于数据包的！详情请阅 [这里](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/am_crop_temperatures/crops/minecraft_wheat.json) 来查看例子，以及更多信息。
+这一选项是基于数据包的！详情请阅 [这里](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/andromeda/crop_temperatures/crops/minecraft_wheat.json) 来查看例子，以及更多信息。
 
 ***
 ### 更快的火焰蔓延 🔥 （0.2.1+）
