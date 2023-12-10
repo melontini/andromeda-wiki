@@ -9,7 +9,7 @@ description: GUI and display related tweaks
 
 Displays an item's tooltip instead of its name when you select that item on your hotbar.
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/tooltip_not_name.webp" width="450">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/tooltip_not_name.png" width="450">
 
 ### GUI Particles ✨ (0.4.15+)
 
