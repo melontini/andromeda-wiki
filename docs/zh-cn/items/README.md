@@ -4,6 +4,15 @@ title: 物品
 description: 物品相关调整
 ---
 
+### 磁铁 🧲 (1.1.0+)
+
+<br/>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/magnet.png" width="300">
+
+* 可以吸引指定物品的神奇磁铁。
+* 可通过海洋之心升级，最多指定四种物品。
+* 由海洋之心，四块铜锭和两份红石粉制成。
+
 ### 工具提示 💬 （0.8.0+）
 
 为一些工具提示添加了更多有用的信息。你可以单独禁用它们。
