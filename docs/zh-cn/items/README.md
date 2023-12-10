@@ -6,7 +6,6 @@ description: 物品相关调整
 
 ### 磁铁 🧲 (1.1.0+)
 
-<br/>
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/magnet.png" width="300">
 
 * 可以吸引指定物品的神奇磁铁。
