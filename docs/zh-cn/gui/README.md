@@ -9,7 +9,7 @@ description: GUI以及显示相关的调整
 
 在物品栏中选择物品时，展示其工具提示而非名称。
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/tooltip_not_name.webp" width="450">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/tooltip_not_name.png" width="450">
 
 ### GUI粒子效果 ✨ （0.4.15+）
 
