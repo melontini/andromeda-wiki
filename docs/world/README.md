@@ -4,6 +4,10 @@ title: World
 description: World related tweaks
 ---
 
+### Moist Control (1.4.0+)
+
+Allows you to control farmland hydration range. As simple as that!
+
 ### Self Planting Crops (0.6.0+)
 
 If possible, plants will plant themselves after some time. Since 0.7.0 you can white/blacklist plants.
