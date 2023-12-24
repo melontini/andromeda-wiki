@@ -102,9 +102,7 @@ Here's an example script which randomly changes moisture levels in every dimensi
 
 ```js
 LevelEvents.tick(e => { //Runs for every dimension/level
-	let level = e.getLevel(); //Get level from event
-
-	if (level.isClientSide()) return; //Ensure that we're on server
+	  let level = e.getLevel(); //Get level from event
 
     if (level.am$isReady() && level.getTime() % 40 == 0) { //Check if configs are loaded and check if time is divisible by 40
         let i = level.getRandom().nextInt(7);//Generate a random nubmer in range [0, 7).
@@ -118,9 +116,7 @@ Don't forget to save your changes!
 
 ```js
 LevelEvents.unloaded(e => { //Runs on level unload
-	let level = e.getLevel();
-
-	if (level.isClientSide()) return;
+	  let level = e.getLevel();
 
     if (level.am$isReady()) {
         level.am$save("world/moist_control");
