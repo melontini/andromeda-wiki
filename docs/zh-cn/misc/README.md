@@ -102,10 +102,6 @@ description: 其它调整以及非调整
 
 ```js
 LevelEvents.tick(e => { //为所有维度/存档执行代码
-	let level = e.getLevel(); //获取存档
-
-	if (level.isClientSide()) return; //保证在服务端运行
-
     if (level.am$isReady() && level.getTime() % 40 == 0) { //每 40 刻，在保证配置文件被加载的情况下，修改配置项
         let i = level.getRandom().nextInt(7);//在 [0, 7) 的区间生成随机数
         level.am$get("world/moist_control").customMoisture = i; //设置你想要更改的值
@@ -118,10 +114,6 @@ LevelEvents.tick(e => { //为所有维度/存档执行代码
 
 ```js
 LevelEvents.unloaded(e => { //关闭存档时运行
-	let level = e.getLevel();
-
-	if (level.isClientSide()) return;
-
     if (level.am$isReady()) {
         level.am$save("world/moist_control");
     }
