@@ -86,6 +86,19 @@ Here's an example config that changes farmland moisture:
 }
 ```
 
+Andromeda 1.4.2 introduces `andromeda:default`. A special key that is applied to all dimensions before their specific config. Here's a generic example:
+
+```json
+{
+  "andromeda:default": {
+    "enabled": false
+  },
+  "minecraft:the_end": {
+    "enabled": true
+  }
+}
+```
+
 All per-world and per-dimension configs can be reloaded using `/reload`!
 
 But what if you don't want to use data packs or they aren't flexible enough? Well, you can use KubeJS!
