@@ -10,7 +10,7 @@ description: Item related tweaks
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/magnet.png" width="300">
 
 * This special magnet allows you to select items you want to attract.
-* Can be upgraded 4 additional times using a Heart of the Sea.
+* Can be upgraded 4 additional times by left-clicking with a Heart of the Sea.
 * Crafted from Heart of the Sea, 4 Copper Ingots and 2 Redstone.
 
 ### Tooltips 💬 (0.8.0+)
