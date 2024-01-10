@@ -37,10 +37,12 @@ This will download, if available, your currently selected language and EN-US.
 Upload client crash reports, only if `andromeda` is found in the trace.
 
 Uploaded data:
-* Stack Trace.
-* A specific set of mods.
-* Environment (Server/Client)
-* Platform (Fabric/Connector)
+- Environment (e.g. client), 
+- OS version (e.g. Windows 11), 
+- Platform (e.g. Fabric), 
+- Java (e.g. 17 Oracle Corp), 
+- Bootstrap status (e.g Discovery), 
+- Certain loaded mods.
 
 ::: tip Info
 Data is sent to Mixpanel EU servers. Unlike analytical data, this data doesn't have a unique ID attached. Everything is sent to a singular Crash UUID (`be4db047-16df-4e41-9121-f1e87618ddea`)
