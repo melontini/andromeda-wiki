@@ -4,13 +4,23 @@ title: Entities
 description: Entity related tweaks
 ---
 
-### Zombies Don't Pick up Garbage (1.0.0+)
+### Minecart Speed Control 💨 (1.5.0+)
+
+Allows basic control of maximum minecart speeds. There is a separate option for the furnace minecart. Values > ~1.5 are not recommended!
+
+You can also configure additional fuel consumption for the furnace minecart. (Negative values are supported)
+
+::: tip Info
+Not all modded minecart types are supported!
+:::
+
+### Zombies Don't Pick up Garbage 🧟‍♀️❌🚮 (1.0.0+)
 
 This prevents zombies from picking up things like rotten flesh. If [Throwable Items](/mechanics/#throwable-items-🥏-0-5-0) are on, zombies will also pick up those.
 
 You can add your own items with the `andromeda:zombies_pick_up` tag!
 
-### All Zombies Can Pick up Items (1.0.0+)
+### All Zombies Can Pick up Items 🧟‍♂️⚔ (1.0.0+)
 
 A companion tweak to the previous one. 
 

@@ -92,3 +92,9 @@
     // code blocks vars
     --code-hl-bg-color: #1f2024;
   }
+
+  .pixelated {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+  }

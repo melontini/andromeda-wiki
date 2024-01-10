@@ -42,7 +42,7 @@ Fully grown, hanging propagules will fall after some time.
 </video>
 
 ***
-### Cactus Bottle Filling (0.6.0+)
+### Cactus Bottle Filling 🌵 (0.6.0+)
 
 Lets you fill glass bottles with cacti.
 
