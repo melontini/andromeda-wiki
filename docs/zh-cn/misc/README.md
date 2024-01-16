@@ -37,10 +37,12 @@ description: 其它调整以及非调整
 如果在栈跟踪中发现了“andromeda”，则上传客户端错误报告。
 
 上传的数据：
-* 栈跟踪。
-* 特定的相关模组。
-* 环境（服务端或客户端）。
-* 平台（Fabric 或 Connector）
+- 环境（如客户端），
+- 系统版本（如 Windows 11），
+- 加载器（如 Fabric）
+- Java（如 Oracle Java 17），
+- Bootstrap 状态（如 发现状态），
+- 部分已加载的模组。
 
 ::: tip 提示
 数据将被上传到欧洲的 Mixpanel 服务器。与分析数据不同，这些数据并不会有独特的 ID 作为标识。所有的数据都会以崩溃 UUID 的形式上传。 (`be4db047-16df-4e41-9121-f1e87618ddea`)
@@ -82,6 +84,19 @@ description: 其它调整以及非调整
   },
   "minecraft:overworld": {
     "customMoisture": 3
+  }
+}
+```
+
+群星模组的 1.4.2 版本引入了 `andromeda:default`。这是一个特殊的键值，应用于所有维度的特定配置前。例子如下：
+
+```json
+{
+  "andromeda:default": {
+    "enabled": false
+  },
+  "minecraft:the_end": {
+    "enabled": true
   }
 }
 ```
