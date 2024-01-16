@@ -86,6 +86,19 @@ description: 其它调整以及非调整
 }
 ```
 
+群星模组的 1.4.2 版本引入了 `andromeda:default`。这是一个特殊的键值，应用于所有维度的特定配置前。例子如下：
+
+```json
+{
+  "andromeda:default": {
+    "enabled": false
+  },
+  "minecraft:the_end": {
+    "enabled": true
+  }
+}
+```
+
 所有“存档”和“维度”分化的配置都可以通过 `/reload` 命令重载！
 
 觉得数据太麻烦，或是干脆不想用它们？当然，你还可以用 KubeJS！
