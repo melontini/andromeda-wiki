@@ -4,6 +4,15 @@ title: 物品
 description: 物品相关调整
 ---
 
+### 各种小袋 🌱🌺🌳（1.5.0+）
+
+各种植物主题的小袋！
+
+- <img class="pixelated" src="https://raw.githubusercontent.com/melontini/andromeda/1.19-fabric/src/main/resources/assets/andromeda/textures/item/pouches/seed_pouch.png" width="35" height="35"> 种子袋：内含各种种子（还有莓果）。 [Loot table](https://github.com/melontini/andromeda/blob/de12101d5235c8a579ce64a061dc80b6ee2cbc8f/src/main/resources/data/andromeda/loot_tables/pouches/seeds.json)
+- <img class="pixelated" src="https://raw.githubusercontent.com/melontini/andromeda/1.19-fabric/src/main/resources/assets/andromeda/textures/item/pouches/flower_pouch.png" width="35" height="35"> 花朵袋：内含常见品种的花朵。 [Loot table](https://github.com/melontini/andromeda/blob/de12101d5235c8a579ce64a061dc80b6ee2cbc8f/src/main/resources/data/andromeda/loot_tables/pouches/flowers.json)
+- <img class="pixelated" src="https://raw.githubusercontent.com/melontini/andromeda/1.19-fabric/src/main/resources/assets/andromeda/textures/item/pouches/sapling_pouch.png" width="35" height="35"> 树苗袋：内含常见品种的树苗。 [Loot table](https://github.com/melontini/andromeda/blob/de12101d5235c8a579ce64a061dc80b6ee2cbc8f/src/main/resources/data/andromeda/loot_tables/pouches/saplings.json)
+- <img class="pixelated" src="https://raw.githubusercontent.com/melontini/andromeda/1.19-fabric/src/main/resources/assets/andromeda/textures/item/pouches/special_pouch.png" width="35" height="35"> 神秘袋：这个袋子并没有自己的战利品表，但你可以通过配置 `CustomLootId`。默认为种子（但是它的战利品表没有内容！）。
+
 ### 磁铁 🧲 (1.1.0+)
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/magnet.png" width="300">
