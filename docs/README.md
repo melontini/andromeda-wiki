@@ -8,7 +8,7 @@ description: Andromeda wiki
 
 # Welcome to the Andromeda wiki!
 
-<a href="https://www.curseforge.com/minecraft/mc-mods/andromeda"><img style="margin-right: 5px;" src="https://img.shields.io/curseforge/dt/639198?logo=curseforge&color=orange" alt="" height="24" /></a><a href="https://donate.melontini.me/"><img style="margin-right: 5px; margin-left: 5px;" src="https://img.shields.io/badge/support-me-a500ff" alt="" height="24" /></a><a href="https://modrinth.com/mod/andromeda"><img style="margin-left: 5px;" src="https://img.shields.io/modrinth/dt/TseYlb0f?logo=modrinth&color=mint" alt="" height="24" /></a>
+<a href="https://modrinth.com/mod/andromeda"><img src="https://img.shields.io/modrinth/dt/TseYlb0f?logo=modrinth&color=mint" alt="" height="24" /></a>
 </div>
 
 <p style="font-size: 120%">A galaxy is a collection of things and systems. So is this mod.</p>
@@ -28,7 +28,7 @@ If you have a feature suggestion, don't hesitate to post it on the [Discussions 
 <p style="font-size: 200%">💜</p>
 
 ::: danger
-This mod is only available on Modrinth, CurseForge and GitHub Actions. If you got this mod from *anywhere* else, it may contain malware similar to [fractureiser](https://github.com/fractureiser-investigation/fractureiser).
+This mod is only available on [Modrinth](https://modrinth.com/mod/andromeda), [GitHub](https://github.com/melontini/andromeda) and [CurseForge](https://www.curseforge.com/minecraft/mc-mods/andromeda) (Old versions). If you got this mod from *anywhere* else, it may contain malware similar to [fractureiser](https://github.com/fractureiser-investigation/fractureiser).
 
 See [stop mod reposts](https://stopmodreposts.org/) for more info.
 
