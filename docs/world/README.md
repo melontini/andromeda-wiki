@@ -42,6 +42,12 @@ This option is data-driven! Checkout [this](https://github.com/melontini/androme
 ***
 ### Fast Fire Spread 🔥 (0.2.1+)
 
+::: warning Deprecated
+
+This module is deprecated, but will be reworked under a different name sometime in the future.
+
+:::
+
 Makes fire spread a lot faster and wider.
 
 ***

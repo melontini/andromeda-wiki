@@ -4,7 +4,13 @@ title: Misc
 description: Other tweaks and non-tweaks
 ---
 
-### Auto-generate Recipe Advancements 📗
+### [Experimental] Tiny Storage 📦 (1.7.0+)
+
+Allows you to store items in the 2x2 crafting space.
+
+By default, this option will follow the `keepInventory` game rule, but can be configured to always keep the items.
+
+### Auto-generate Recipe Advancements 📗 (0.4.5+)
 
 > Totally goes well with [RBIP](https://modrinth.com/mod/rbip)
 

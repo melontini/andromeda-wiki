@@ -82,6 +82,8 @@ Have you ever raided a bastion? You may have noticed that it is very easy to dig
 
 Well, this tweak forces you to kill every monster around the chest before you can loot it. Attempting to open the chest will highlight all the monsters you need to kill. Pretty RPG-esque!
 
+In versions >1.7.0 you can prevent players from breaking guarded chests.
+
 ***
 ### Safe Beds 🛌 (0.1+)
 
@@ -92,9 +94,13 @@ Makes beds NOT explode when outside the overworld. Instead, sends the player a f
 ***
 ### Leaf Slowdown 🌿🐌 (0.1+)
 
-Makes it harder to traverse biomes on trees by slowing entities down when they are on leaves.
+::: warning Deprecated
 
-[]
+This module is deprecated and will be removed in a future version.
+
+:::
+
+Makes it harder to traverse biomes on trees by slowing entities down when they are on leaves.
 
 ***
 ### Campfire Effects 🔥♥️ (0.1+)

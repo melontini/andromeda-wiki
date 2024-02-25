@@ -4,7 +4,7 @@ title: Mechanics
 description: Things and stuff idk
 ---
 
-### [Experimental] Villager Gifting 🎁 (0.9.0+)
+### Villager Gifting 🎁 (0.9.0+)
 
 Allows you to restore some reputation by giving gifts to villagers!
 

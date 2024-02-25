@@ -4,6 +4,12 @@ title: Entities
 description: Entity related tweaks
 ---
 
+### Vehicle Unentrapment 🗿 (1.7.0+)
+
+By default, entities in vehicles refuse to leave no matter how much damage they take. This option forces the entity to leave the vehicle when it takes damage.
+
+Affected entities are controlled with the `andromeda:escape_vehicles_on_hit` tag, and vehicles with `andromeda:escapable_vehicle`.
+
 ### Minecart Speed Control 💨 (1.5.0+)
 
 Allows basic control of maximum minecart speeds. There is a separate option for the furnace minecart. Values > ~1.5 are not recommended!
@@ -28,11 +34,11 @@ In vanilla, only some zombies can pick up items. The higher the difficulty, the 
 
 ### Snowball Tweaks ❄ (0.8.0+)
 
-* Set a custom cooldown for snowball usage.
+* Set a custom cooldown for the use of snowballs.
 * Freeze entities on hit.
 * Extinguish entities on hit.
-* Melt When on Fire: Snowballs will melt if set on fire.
-* Build Up Layers: Snowballs will freeze water and build up snow layers on hit.
+* Melt When on Fire: Snowballs will melt when set on fire.
+* Build Up Layers: Snowballs freeze water and create layers of snow when hit.
 
 ### Slime Tweaks 💧 (0.7.0+)
 
@@ -80,27 +86,6 @@ Makes some changes to the furnace mine wagons to make them a bit better.
 Makes furnace minecarts take fuel from nearby inventory carts, such as minecarts with chests, hoppers and possibly modded ones.
 
 If a cart has stopped, you have to push it with your hand before it moves.
-
-***
-### Simple Minecart Linking ⛓ (0.4.9 - 0.5.3)
-
-Allows you to easily link minecarts together with a chain.
-
-<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
-  <source src="/videos/cart_linking.webm" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-::: details How to Link
-
-***
-
-<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" controls>
-  <source src="/videos/linking.webm" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-:::
 
 ***
 ### New Minecarts 🛤️ (0.1+)
