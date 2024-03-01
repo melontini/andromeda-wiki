@@ -45,10 +45,6 @@ export default defineUserConfig({
     sidebar: sidebar,
     navbar: [
       {
-        text: 'CurseForge',
-        link: 'https://www.curseforge.com/minecraft/mc-mods/andromeda',
-      },
-      {
         text: 'Modrinth',
         link: 'https://modrinth.com/mod/andromeda',
       },

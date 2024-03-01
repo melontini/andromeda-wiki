@@ -29,7 +29,7 @@ If you have a feature suggestion, don't hesitate to post it on the [Discussions 
 <p style="font-size: 200%">💜</p>
 
 ::: danger
-This mod is only available on [Modrinth](https://modrinth.com/mod/andromeda), [GitHub](https://github.com/melontini/andromeda) and [CurseForge](https://www.curseforge.com/minecraft/mc-mods/andromeda) (Old versions). If you got this mod from *anywhere* else, it may contain malware similar to [fractureiser](https://github.com/fractureiser-investigation/fractureiser).
+This mod is only available on [Modrinth](https://modrinth.com/mod/andromeda) and [GitHub](https://github.com/melontini/andromeda). If you got this mod from *anywhere* else, it may contain malware similar to [fractureiser](https://github.com/fractureiser-investigation/fractureiser).
 
 See [stop mod reposts](https://stopmodreposts.org/) for more info.
 
