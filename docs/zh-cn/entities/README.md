@@ -82,27 +82,6 @@ description: 实体相关调整
 如果动力矿车已经停下来了，你需要手动推动它，才能让它继续运行。
 
 ***
-### 简单矿车连接 ⛓ （0.4.9 - 0.5.3）
-
-让你能够通过锁链来轻松地连接矿车。
-
-<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
-  <source src="/videos/cart_linking.webm" type="video/mp4">
-  你的浏览器不支持视频标签。
-</video>
-
-::: details 如何连接
-
-***
-
-<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" controls>
-  <source src="/videos/linking.webm" type="video/mp4">
-  你的浏览器不支持视频标签。
-</video>
-
-:::
-
-***
 ### 额外的矿车种类 🛤️ （0.1+）
 
 - 载铁砧的矿车：这可有些重量！
