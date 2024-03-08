@@ -15,9 +15,9 @@ description: 群星模组维基
 
 <br/>
 
- <img alt="Fabric API icon" src="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" width="40" height="40"> 模组运行需要同时安装 [Fabric API](https://modrinth.com/mod/fabric-api) 和 <img alt="Cloth Config icon" src="https://cdn.modrinth.com/data/9s6osm5g/icon.png" width="40" height="40"> [Cloth Config API](https://modrinth.com/mod/cloth-config)！
+<img alt="Fabric API icon" src="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" width="40" height="40"> 必要前置：[Fabric API](https://modrinth.com/mod/fabric-api) 
 
-<img alt="Mod Menu icon" src="https://cdn.modrinth.com/data/mOgUt4GM/icon.png" width="40" height="40"> 强烈推荐安装 [Mod Menu](https://modrinth.com/mod/modmenu) 和 <img alt="TooltipFix icon" src="https://cdn.modrinth.com/data/2RKFTmiB/e2ebd2a3e0b5f30ed8d1084b79c568895a12f656.png" width="40" height="40"> [ToolTipFix](https://modrinth.com/mod/modmenu)！
+<img alt="Mod Menu icon" src="https://cdn.modrinth.com/data/mOgUt4GM/icon.png" width="40" height="40"> 强烈推荐客户端使用 [Mod Menu](https://modrinth.com/mod/modmenu) 和 <img alt="Cloth Config icon" src="https://cdn.modrinth.com/data/9s6osm5g/icon.png" width="40" height="40"> [Cloth Config API](https://modrinth.com/mod/cloth-config)！
 
 <br/>
 
