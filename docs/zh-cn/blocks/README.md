@@ -100,7 +100,7 @@ description: 方块相关调整
 
 :::
 
-Makes it harder to traverse biomes on trees by slowing entities down when they are on leaves.
+通过减速树叶上的实体，使群系间旅行更加有挑战性。
 
 ***
 ### 营火效果 🔥♥️ （0.1+）
