@@ -69,28 +69,24 @@ Example:
 
 ```json
 {
-  "item_id": "minecraft:nether_star",
-  "on_block_hit": {
-    "hit_block_commands": [
-      "setblock ~ ~ ~ stone"
-    ]
+  "items": "minecraft:nether_star",
+  "commands": {
+    "on_block": {
+      "hit_block": [
+        "setblock ~ ~ ~ stone"
+      ]
+    },
+    "on_entity": {
+      "hit_entity": "kill @s"
+    },
+    "on_any": {
+      "item": "/summon lightning_bolt ~ ~ ~"
+    }
   },
-  "on_entity_hit": {
-    "hit_entity_commands": [
-      "kill @s"
-    ]
-  },
-  "on_any_hit": {
-    "item_commands": [
-      "/summon lightning_bolt ~ ~ ~"
-    ]
-  },
+  "cooldown": 204,
   "complement": false,
-  "spawn_colored_particles": true,
-  "particle_colors": {
-    "red": 255,
-    "green": 255,
-    "blue": 255
+  "particles": {
+    "colors": [255, 255, 255]
   }
 }
 ```
@@ -98,42 +94,63 @@ Example:
 
 As you can see, the syntax is quite simple.
 
-`item_id` takes either 1 ID or an array of as many as you want.
+`items` takes either 1 ID or an array of as many as you want.
 
 There are 4 events and 5 command sources:
 
-Sources:
+Sources. Should be an array, but can be ommited if there's just 1 value:
 
-1. `item_commands` Executed from the flying item right before it gets removed.
-2. `user_commands` Executed from the Entity which threw the item.
-3. `server_commands` Executed from the server. TBH, not very useful.
-4. `hit_entity_commands` Only on `on_entity_hit` event. Executed from an entity that has just been hit by the item.
-5. `hit_block_commands` Only on `on_block_hit` event. Executed from the server, but at the position of the block.
+1. `item` Executed from the flying item right before it gets removed.
+2. `user` Executed from the Entity which threw the item.
+3. `server` Executed from the server. TBH, not very useful.
+4. `hit_entity` Only on `on_entity` event. Executed from an entity that has just been hit by the item.
+5. `hit_block` Only on `on_block` event. Executed from the server, but at the position of the block.
 
 Events:
 
-1. `on_entity_hit` When a flying item hits an entity. The only event that supports hit_entity_commands.
-2. `on_block_hit` When a flying item hits a block.
+1. `on_entity` When a flying item hits an entity. The only event that supports hit_entity_commands.
+2. `on_block` When a flying item hits a block.
 3. `on_miss` When a flying item misses.
-4. `on_any_hit` All of the above, combined. Always executed after one of the previous events.
+4. `on_any` All of the above, combined. Always executed after one of the previous events.
 
 This is also the order in which the commands are executed.
 
+The `commands` block is also a weighted list! This allows random things to happen when an item hits the ground.
+
+```json
+{
+  "items": "minecraft:green_dye",
+  "complement": true,
+  "commands": [
+    {
+      "weight": 2,
+      "data": { }
+    },
+    {
+      "weight": 1,
+      "data": {
+        "on_any": {
+          "item": "/summon slime ~ ~ ~"
+        }
+      }
+    }
+  ],
+  "particles": {
+    "colors": [0, 92, 0]
+  }
+}
+```
+
 Other things:
 
-`override_vanilla` If true, prevents **ALL** vanilla behaviors from being executed. This should never be used on block items, as it will make the block unplaceable.
+- `override_vanilla` If true, prevents **ALL** vanilla behaviors from being executed. This should never be used on block items, as it will make the block unplaceable.
+- `disabled`: Disables all behaviors for this item.
+- `complement`: If false, disables all other behaviors.
+- `cooldown`: Set a custom cooldown for your item.
+- `particles`: Controls the particles. Used to set the color and disable item break particles.
+- - `item`: Enable/disable item break particles.
+- - `color`: Takes an array of RGB colors (`[0, 34, 255]`) or a single int. -1 by default.
 
-`disabled`: Disables all behaviors for this item.
-
-`complement`: if false, this behavior overrides the default behavior of the item, if true, it runs before it.
-
-`cooldown`: set a custom cooldown for your item.
-
-`spawn_item_particles`: if true, spawns item break particles.
-
-`spawn_colored_particles`: if true, spawns colored particles, the ones used with Dyes and Ink Sacs.
-
-`particle_colors`: the color of your particles, in RGB format.
 :::
 
 ***

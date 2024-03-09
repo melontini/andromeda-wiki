@@ -22,14 +22,56 @@ A small guide:
 3. Hook up a hopper or just right click with eggs in your hand.
 4. Now wait...
 
-All vanilla eggs are supported, including spawn eggs (modded spawn eggs are supported as long as they use or extend the SpawnEggItem class).
-
-You can also add new eggs (actually any item) via datapacks, you can use [this](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/andromeda/egg_processing/egg.json) as an example
+All vanilla eggs are supported, excluding spawn eggs.
 
 It has some additional settings:
 
-* Random Egg Hatch Times, makes egg hatch times a bit more random.
-* Enable Incubator Recipe, enables the Andromeda certified incubator recipe. Don't forget to run /reload!
+* Random Egg Hatch Times, makes egg hatch times a lot more random.
+
+::: details Adding Custom Recipes
+
+Since 1.9.0, the incubator format has been extended to spawn random entities, set NBT, and execute commands as the spawned entity.
+
+The most minimal example is:
+```json
+{
+  "identifier": "minecraft:egg",
+  "entries": {
+    "entity": "minecraft:chicken"
+  },
+  "time": 2500
+}
+```
+This will simply spawn a chick whenever the incubator finishes incubating.
+
+But more verbose is this:
+```json
+{
+  "identifier": "minecraft:turtle_egg",
+  "entries": [
+    {
+      "weight": 1,
+      "data": {
+        "entity": "minecraft:turtle",
+        "nbt": {
+          "CustomName": "{\"text\":\"Poseidon\"}"
+        },
+        "commands": [
+          "/say hi!"
+        ]
+      }
+    }
+  ],
+  "time": 4000
+}
+```
+
+As you can see, the `entries` field accepts either a single entity, or a weighted list. The syntax for `data` and singular `entries` is the same.
+
+The commands are executed as an entity. So, in the case of `/say hi!` all players will receive a message from a turtle named `Poseidon`.
+
+:::
+
 
 ***
 ### Falling Propagule (0.6.0+)
