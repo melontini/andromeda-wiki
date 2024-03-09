@@ -24,12 +24,54 @@ description: 方块相关调整
 
 兼容所有原版的蛋，包括刷怪蛋 (只要有使用或延展 SpawnEggItem class，该模组的刷怪蛋就被支持)。
 
-你还可以通过数据包来添加新的蛋，例子详见 [这里](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/andromeda/egg_processing/egg.json)。
-
 这里是一些额外的设置项：
 
-* 随机化孵化时间，使得孵蛋器的孵蛋时间长度更加随机
-* 启用孵蛋器合成配方，启用本模组自带的孵蛋器合成配方，更改此项不要忘记运行 /reload 指令！
+* 随机化孵化时间，大幅随机化孵蛋器的孵化时间
+
+::: details Adding Custom Recipes
+
+从 1.9.0 起，孵蛋器Since 1.9.0, the incubator format has been extended to spawn random entities, set NBT, and execute commands as the spawned entity.
+
+下面是最简单的例子：
+```json
+{
+  "identifier": "minecraft:egg",
+  "entries": {
+    "entity": "minecraft:chicken"
+  },
+  "time": 2500
+}
+```
+孵蛋器孵化完成后，将会生成一只小鸡。
+
+我们也可以来得复杂些：
+```json
+{
+  "identifier": "minecraft:turtle_egg",
+  "entries": [
+    {
+      "weight": 1,
+      "data": {
+        "entity": "minecraft:turtle",
+        "nbt": {
+          "CustomName": "{\"text\":\"Poseidon\"}"
+        },
+        "commands": [
+          "/say hi!"
+        ]
+      }
+    }
+  ],
+  "time": 4000
+}
+```
+
+如你所见，`entries` 不但可以接受单个实体，还能接受一个带权重的列表。`data` 和单个 `entries` 同理。
+
+指令是由生物执行的。与普通的 `/say hi!` 不同，所有玩家都会收到来自海龟 `Poseidon` 的问候消息。
+
+:::
+
 
 ***
 ### 胎生苗掉落（0.6.0+）
