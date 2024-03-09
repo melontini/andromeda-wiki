@@ -22,7 +22,7 @@ A small guide:
 3. Hook up a hopper or just right click with eggs in your hand.
 4. Now wait...
 
-All vanilla eggs are supported, excluding spawn eggs.
+All vanilla eggs are supported, including spawn eggs (modded spawn eggs are supported as long as they use or extend the SpawnEggItem class).
 
 It has some additional settings:
 
