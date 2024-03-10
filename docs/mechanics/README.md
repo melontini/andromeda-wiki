@@ -108,8 +108,8 @@ Sources. Should be an array, but can be ommited if there's just 1 value:
 
 Events:
 
-1. `on_entity` When a flying item hits an entity. The only event that supports hit_entity_commands.
-2. `on_block` When a flying item hits a block.
+1. `on_entity` When a flying item hits an entity. Supports `hit_entity`.
+2. `on_block` When a flying item hits a block. Supports `hit_block`.
 3. `on_miss` When a flying item misses.
 4. `on_any` All of the above, combined. Always executed after one of the previous events.
 
