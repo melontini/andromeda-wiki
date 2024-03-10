@@ -28,9 +28,9 @@ description: 方块相关调整
 
 * 随机化孵化时间，大幅随机化孵蛋器的孵化时间
 
-::: details Adding Custom Recipes
+::: details 自定义行为
 
-从 1.9.0 起，孵蛋器Since 1.9.0, the incubator format has been extended to spawn random entities, set NBT, and execute commands as the spawned entity.
+从 1.9.0 起，孵蛋器支持生成随机实体，设置 NBT，以及在孵化完成时执行命令。
 
 下面是最简单的例子：
 ```json
@@ -66,7 +66,7 @@ description: 方块相关调整
 }
 ```
 
-如你所见，`entries` 不但可以接受单个实体，还能接受一个带权重的列表。`data` 和单个 `entries` 同理。
+如你所见，`entries` 不但可以接受单个实体，还能接受带权重的列表。`data` 和单个 `entries` 同理。
 
 指令是由生物执行的。与普通的 `/say hi!` 不同，所有玩家都会收到来自海龟 `Poseidon` 的问候消息。
 
@@ -93,7 +93,7 @@ description: 方块相关调整
 ***
 ### 实用制箭台 🏹（0.3.1+）
 
-赋予制箭台界面显示，在界面中，你可以强化弓弦，提高射击准度。
+赋予制箭台界面显示。在界面中，你可以强化弓弦，提高射击准度。
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/fletching.png" width="412">
 
