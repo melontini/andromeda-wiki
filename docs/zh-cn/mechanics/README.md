@@ -108,7 +108,7 @@ description: 一些机制，还有一些数不上名的小玩意
 
 事件：
 
-1. `on_entity` 当投掷物击中实体时。这一事件只支持 hit_entity_commands。
+1. `on_entity` 当投掷物击中实体时。这一事件只支持 hit_entity 执行源。
 2. `on_block` 当投掷物击中方块时。
 3. `on_miss` 当投掷物错过目标时。
 4. `on_any` 包含以上所有情况。永远会在上述事件执行后执行。
