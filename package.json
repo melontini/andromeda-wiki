@@ -1,15 +1,11 @@
 {
-  "name": "m-tweaks-wiki",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "melontini <104443436+melontini@users.noreply.github.com>",
-  "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
-    "vuepress": "2.0.0-rc.0"
+    "vitepress": "^1.0.2"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  },
-  "packageManager": "yarn@3.6.3"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  }
 }
