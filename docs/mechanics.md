@@ -62,9 +62,8 @@ With this on, zombies will throw any throwable items they pick up.
 
 ::: details Adding Custom Behaviors
 
-All behaviors must be placed in `andromeda/item_throw_behavior` of your datapack, along with `recipes`, `tags`, `loot_tables`, etc. The name of the file doesn't matter.
-
 Andromeda 1.10.0 introduced a new, highly customizable data format.
+
 The new format is based on two concepts: events and command pools.
 
 ## Events
