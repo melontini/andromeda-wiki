@@ -61,158 +61,95 @@ There's an additional option available: Can Zombies Throw Items?
 With this on, zombies will throw any throwable items they pick up.
 
 ::: details Adding Custom Behaviors
+Datapacks are quite limited and can only execute commands and spawn colored particles (the ones from Ink Sacs and Dyes).
 
-Andromeda 1.10.0 introduced a new, highly customizable data format.
+All behaviors must be placed in `andromeda/item_throw_behavior` of your datapack, along with `recipes`, `tags`, `loot_tables`, etc. The name of the file doesn't matter.
 
-The new format is based on two concepts: events and command pools.
-
-## Events
-
-Events represent what the flying object has hit. Standard events include  `andromeda:block`, `andromeda:entity`, `andromeda:miss`, `andromeda:any`.
-
-Different events may support additional command pool types.
-
-An event array is defined as follows:
-
-```json
-"events": [
-  {
-    "type": "andromeda:any",
-    "condition": {},
-    "commands": []
-  }
-]
-```
-
-What is the `condition` block? The conditions control whether an event can be executed. The format is identical to the vanilla predicate, so you can use tools like [misode.github.io](https://misode.github.io/predicate/) to help you create predicates.
-
-The parameters may be slightly different:
-
-| Parameter  |   |
-|---|---|
-| `direct_killer_entity`  |  the flying item |
-| `tool`  |  the item stack of the flying item |
-| `killer_entity`  |  the thrower of the item. |
-| `this_entity`  |  the hit entity |
-| `block_entity`  |  the hit block entity |
-| `block_state`  |  the hit block state |
-
-## Command Pools
-
-Command pools represent the actions that your custom behavior will perform on a given event.
-
-Just like events, command pools can accept conditions.
-
-The special `particles` block can be used to spawn colored/item-breaking particles. The particles are spawned at the source position.
-
-```json
-"particles": {
-  "item": true,
-  "colors": [255, 0, 255]
-}
-```
-
-Andromeda provides "source" command types, like `andromeda:item`, `andromeda:user`, `andromeda:server`, `andromeda:hit_entity`, `andromeda:hit_block`. All commands specified in these blocks will be executed as their actor. i.e. `andromeda:item` is the flying item. `andromeda:user` is the thrower of the item, if there is one.
-
-```json
-"commands": [
-  {
-    "type": "andromeda:hit_entity",
-    "commands": [
-      "/effect give @s minecraft:blindness 5 0 true",
-      "/effect give @s minecraft:glowing 5 0 true"
-    ]
-  }
-]
-```
-
-But there are also "logic" command types, like `andromeda:random`, `andromeda:defaulted`, `andromeda:all_of` and `andromeda:any_of`. These are a bit more involved.
-
-`andromeda:random`:
-
-This type accepts a weighted list of other command types and a number of rolls (1 if not specified).
+Example:
 
 ```json
 {
-  "type": "andromeda:random",
-  "rolls": 3,
+  "items": "minecraft:nether_star",
+  "commands": {
+    "on_block": {
+      "hit_block": [
+        "setblock ~ ~ ~ stone"
+      ]
+    },
+    "on_entity": {
+      "hit_entity": "kill @s"
+    },
+    "on_any": {
+      "item": "/summon lightning_bolt ~ ~ ~"
+    }
+  },
+  "cooldown": 204,
+  "complement": false,
+  "particles": {
+    "colors": [255, 255, 255]
+  }
+}
+```
+> When the item hits a block, it will spawn a stone block where it hit. When it hits an entity, it will kill that entity. When it hits anything, it will spawn a lightning bolt and white particles at the impact location.
+
+As you can see, the syntax is quite simple.
+
+`items` takes either 1 ID or an array of as many as you want.
+
+There are 4 events and 5 command sources:
+
+Sources. Should be an array, but can be ommited if there's just 1 value:
+
+1. `item` Executed from the flying item right before it gets removed.
+2. `user` Executed from the Entity which threw the item.
+3. `server` Executed from the server. TBH, not very useful.
+4. `hit_entity` Only on `on_entity` event. Executed from an entity that has just been hit by the item.
+5. `hit_block` Only on `on_block` event. Executed from the server, but at the position of the block.
+
+Events:
+
+1. `on_entity` When a flying item hits an entity. Supports `hit_entity`.
+2. `on_block` When a flying item hits a block. Supports `hit_block`.
+3. `on_miss` When a flying item misses.
+4. `on_any` All of the above, combined. Always executed after one of the previous events.
+
+This is also the order in which the commands are executed.
+
+The `commands` block is also a weighted list! This allows random things to happen when an item hits the ground.
+
+```json
+{
+  "items": "minecraft:green_dye",
+  "complement": true,
   "commands": [
     {
-      "weight": 3,
-      "data": {
-        "type": "andromeda:item",
-        "particles": {
-          "item": true,
-          "colors": [5, 36, 99]
-        }
-      }
+      "weight": 2,
+      "data": { }
     },
     {
       "weight": 1,
       "data": {
-        "type": "andromeda:item",
-        "particles": {
-          "item": true,
-          "colors": [0, 255, 0]
+        "on_any": {
+          "item": "/summon slime ~ ~ ~"
         }
       }
     }
-  ]
-}
-```
-
-`andromeda:defaulted`:
-
-This type is a simple if-else statement. If **all** commands in the `commands` block fail (condition fails), the commands specified in the `default` will be used.
-
-```json
-{
-  "type": "andromeda:defaulted",
-  "default": [
-    {
-      "type": "andromeda:hit_block",
-      "particles": {
-        "item": true,
-        "colors": [121, 28, 39]
-      }
-    }
   ],
-  "commands": [
-    {
-      "type": "andromeda:hit_block",
-      "condition": {
-        "condition": "minecraft:block_state_property",
-        "block": "minecraft:stone"
-      },
-      "particles": {
-        "item": true,
-        "colors": [5, 5, 8]
-      }
-    }
-  ]
+  "particles": {
+    "colors": [0, 92, 0]
+  }
 }
 ```
 
-`andromeda:all_of` and `andromeda:any_of`:
+Other things:
 
-These blocks are almost identical to `andromeda:defaulted`, but the `default` block is called `then`.
-
-
-All command types can be nested, so a "defaulted" block can fall back to an "all of" block to an "any of" block to a "defaulted" block to a "random" block with a "defaulted" block.
-
-You can find some examples over here: [gist.github.com](https://gist.github.com/melontini/5a516acfe108712804319055085bb355)
-
-Important note! You will not get an error if any of your event/condition/command `type` fields are invalid. I have no idea what's going on with that.
-
-
-Misc options:
-
-| options  |   |
-|---|---|
-| `complement`  |  If false, disables all other behaviors. |
-| `cooldown`  |  Set a custom cooldown for your item. In ticks. |
-| `disabled`  |  Disables all behaviors for this item. |
-| `override_vanilla`  |  If true, prevents ALL vanilla behaviors from being executed. This should never be used on block items, as it will make the block unplaceable. |
+- `override_vanilla` If true, prevents **ALL** vanilla behaviors from being executed. This should never be used on block items, as it will make the block unplaceable.
+- `disabled`: Disables all behaviors for this item.
+- `complement`: If false, disables all other behaviors.
+- `cooldown`: Set a custom cooldown for your item.
+- `particles`: Controls the particles. Used to set the color and disable item break particles.
+- - `item`: Enable/disable item break particles.
+- - `color`: Takes an array of RGB colors (`[0, 34, 255]`) or a single int. -1 by default.
 
 :::
 
