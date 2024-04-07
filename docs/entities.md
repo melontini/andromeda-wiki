@@ -24,7 +24,7 @@ Not all modded minecart types are supported!
 
 ## Zombies Don't Pick up Garbage 🧟‍♀️❌🚮 <Badge type="tip" text="^1.0.0" />
 
-This prevents zombies from picking up things like rotten flesh. If [Throwable Items](/mechanics/#throwable-items-🥏-0-5-0) are on, zombies will also pick up those.
+This prevents zombies from picking up things like rotten flesh. If [Throwable Items](/mechanics#throwable-items-🥏) are on, zombies will also pick up those.
 
 You can add your own items with the `andromeda:zombies_pick_up` tag!
 

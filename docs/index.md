@@ -24,7 +24,7 @@ description: Andromeda wiki
 
 If you have a feature suggestion, don't hesitate to post it on the [Discussions page](https://github.com/melontini/andromeda/discussions/categories/ideas)!
 
-**You can also check out the [Showcases](/showcases/)!** 
+**You can also check out the [Showcases](/showcases)!** 
 
 <p style="font-size: 200%">💜</p>
 
