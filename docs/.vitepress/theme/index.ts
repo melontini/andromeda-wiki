@@ -11,7 +11,6 @@ import { GiscusProps } from '@giscus/vue/dist/types'
 export default {
   ...DefaultTheme,
   enhanceApp(ctx) {
-    ctx.siteData
     DefaultTheme.enhanceApp(ctx);
   },
   setup() {
@@ -44,7 +43,6 @@ export default {
           lang = "en"
           break;
       }
-      console.log(lang)
       props.lang = lang
     }))
 
