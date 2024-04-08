@@ -58,4 +58,3 @@ const fixLang = (props: GiscusProps, data: VitePressData) => {
   props.lang = lang
 }
 
-
