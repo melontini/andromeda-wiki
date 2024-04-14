@@ -61,95 +61,59 @@ There's an additional option available: Can Zombies Throw Items?
 With this on, zombies will throw any throwable items they pick up.
 
 ::: details Adding Custom Behaviors
-Datapacks are quite limited and can only execute commands and spawn colored particles (the ones from Ink Sacs and Dyes).
 
 All behaviors must be placed in `andromeda/item_throw_behavior` of your datapack, along with `recipes`, `tags`, `loot_tables`, etc. The name of the file doesn't matter.
+
+Since 1.10.0, Andromeda uses [Commander](https://modrinth.com/mod/cmd) for its data pack features. You can learn about commands, Arithmetica and more over at its wiki. https://constellation-mc.github.io/commander/
 
 Example:
 
 ```json
 {
-  "items": "minecraft:nether_star",
-  "commands": {
-    "on_block": {
-      "hit_block": [
-        "setblock ~ ~ ~ stone"
-      ]
-    },
-    "on_entity": {
-      "hit_entity": "kill @s"
-    },
-    "on_any": {
-      "item": "/summon lightning_bolt ~ ~ ~"
-    }
-  },
-  "cooldown": 204,
-  "complement": false,
-  "particles": {
-    "colors": [255, 255, 255]
-  }
-}
-```
-> When the item hits a block, it will spawn a stone block where it hit. When it hits an entity, it will kill that entity. When it hits anything, it will spawn a lightning bolt and white particles at the impact location.
-
-As you can see, the syntax is quite simple.
-
-`items` takes either 1 ID or an array of as many as you want.
-
-There are 4 events and 5 command sources:
-
-Sources. Should be an array, but can be ommited if there's just 1 value:
-
-1. `item` Executed from the flying item right before it gets removed.
-2. `user` Executed from the Entity which threw the item.
-3. `server` Executed from the server. TBH, not very useful.
-4. `hit_entity` Only on `on_entity` event. Executed from an entity that has just been hit by the item.
-5. `hit_block` Only on `on_block` event. Executed from the server, but at the position of the block.
-
-Events:
-
-1. `on_entity` When a flying item hits an entity. Supports `hit_entity`.
-2. `on_block` When a flying item hits a block. Supports `hit_block`.
-3. `on_miss` When a flying item misses.
-4. `on_any` All of the above, combined. Always executed after one of the previous events.
-
-This is also the order in which the commands are executed.
-
-The `commands` block is also a weighted list! This allows random things to happen when an item hits the ground.
-
-```json
-{
-  "items": "minecraft:green_dye",
+  "items": "minecraft:ink_sac",
   "complement": true,
-  "commands": [
+  "events": [
     {
-      "weight": 2,
-      "data": { }
+      "event": "any",
+      "commands": {
+        "type": "andromeda:particles",
+        "selector": "minecraft:direct_killer_entity",
+        "colors": [24, 27, 50]
+      }
     },
     {
-      "weight": 1,
-      "data": {
-        "on_any": {
-          "item": "/summon slime ~ ~ ~"
-        }
+      "event": "entity",
+      "commands": {
+        "type": "commander:commands",
+        "selector": "minecraft:this_entity",
+        "commands": [
+          "/effect give @s minecraft:blindness $(long){{random(4, 7)}} 0 true"
+        ]
       }
     }
-  ],
-  "particles": {
-    "colors": [0, 92, 0]
-  }
+  ]
 }
 ```
+
+`events` is a list of mini subscriptions to flying entity events.
+
+| Event  |   |
+|---|---|
+| `block`  | Executed when the item hits a block.  |
+| `entity`  | Executed when the item hits an entity.  |
+| `miss`  | Executed when the item misses.  |
+| `any`  | Executed after any of the previous events.  |
+
+`commands` is a list of [Commander commands](https://constellation-mc.github.io/commander/Commands).
 
 Other things:
 
-- `override_vanilla` If true, prevents **ALL** vanilla behaviors from being executed. This should never be used on block items, as it will make the block unplaceable.
-- `disabled`: Disables all behaviors for this item.
-- `complement`: If false, disables all other behaviors.
-- `cooldown`: Set a custom cooldown for your item.
-- `particles`: Controls the particles. Used to set the color and disable item break particles.
-- - `item`: Enable/disable item break particles.
-- - `color`: Takes an array of RGB colors (`[0, 34, 255]`) or a single int. -1 by default.
+| Parameter  |   |
+|---|---|
+| `override_vanilla`  | If true, prevents **ALL** vanilla behaviors from being executed. This should never be used on block items, as it will make the block unplaceable.  |
+| `disabled`  | Disables all behaviors for this item.  |
+| `complement`  | If false, disables all other behaviors.  |
+| `cooldown`  | Set a custom cooldown for your item (in ticks). Accepts numbers and [Arithmetica](https://constellation-mc.github.io/commander/Arithmetica)  |
 
 :::
 

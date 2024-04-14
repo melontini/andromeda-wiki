@@ -32,7 +32,7 @@ It has some additional settings:
 
 ::: details Adding Custom Recipes
 
-Since 1.9.0, the incubator format has been extended to spawn random entities, set NBT, and execute commands as the spawned entity.
+Since 1.9.0, the incubator format has been extended to spawn random entities, set NBT, and execute commands as the spawned entity. Since 1.10.0, `/` commands were replaced by [Commander commands](https://constellation-mc.github.io/commander/Commands) and `time` gained support for [Arithmetica](https://constellation-mc.github.io/commander/Arithmetica).
 
 The most minimal example is:
 ```json
@@ -59,7 +59,13 @@ But more verbose is this:
           "CustomName": "{\"text\":\"Poseidon\"}"
         },
         "commands": [
-          "/say hi!"
+          {
+            "type": "commander:commands",
+            "selector": "this_entity",
+            "commands": [
+              "/say hi!"
+            ]
+          }
         ]
       }
     }
@@ -71,6 +77,11 @@ But more verbose is this:
 As you can see, the `entries` field accepts either a single entity, or a weighted list. The syntax for `data` and singular `entries` is the same.
 
 The commands are executed as an entity. So, in the case of `/say hi!` all players will receive a message from a turtle named `Poseidon`.
+
+| Commander Contexts  |   |
+|---|---|
+| `time`  | `block_state`, `block_entity`, `tool`, `origin`  |
+| `commands`  | `this_entity`, `block_state`, `block_entity`, `tool`, `origin`  |
 
 :::
 
