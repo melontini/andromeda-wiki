@@ -39,7 +39,7 @@ Reduces the range in which the dragon can heal itself with crystals from 32 bloc
 All newly generated spikes will be shorter.
 
 ## Throwable Items 🥏 <Badge type="tip" text="^0.5.0" /> 
-[![Requires Connector](https://raw.githubusercontent.com/constellation-mc/commander/documentation/docs/public/badges/requires/compacter_vector.svg)](https://modrinth.com/mod/cmd)
+[![Requires Commander](https://raw.githubusercontent.com/constellation-mc/commander/documentation/docs/public/badges/requires/compacter_vector.svg)](https://modrinth.com/mod/cmd)
 
 Allows throwing certain items, which would otherwise be useless*
 

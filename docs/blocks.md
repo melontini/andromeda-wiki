@@ -7,7 +7,7 @@ description: Block related tweaks
 # Blocks
 
 ## Incubator 🐣 <Badge type="tip" text="^0.4.5" />
-[![Requires Connector](https://raw.githubusercontent.com/constellation-mc/commander/documentation/docs/public/badges/requires/compacter_vector.svg)](https://modrinth.com/mod/cmd)
+[![Requires Commander](https://raw.githubusercontent.com/constellation-mc/commander/documentation/docs/public/badges/requires/compacter_vector.svg)](https://modrinth.com/mod/cmd)
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/incubator.webp" width="520">
 
