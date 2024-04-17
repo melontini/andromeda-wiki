@@ -7,6 +7,7 @@ description: Block related tweaks
 # Blocks
 
 ## Incubator 🐣 <Badge type="tip" text="^0.4.5" />
+[![Requires Connector](https://raw.githubusercontent.com/constellation-mc/commander/documentation/docs/public/badges/requires/compacter_vector.svg)](https://modrinth.com/mod/cmd)
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/incubator.webp" width="520">
 
@@ -32,7 +33,7 @@ It has some additional settings:
 
 ::: details Adding Custom Recipes
 
-Since 1.9.0, the incubator format has been extended to spawn random entities, set NBT, and execute commands as the spawned entity. Since 1.10.0, `/` commands were replaced by [Commander commands](https://constellation-mc.github.io/commander/Commands) and `time` gained support for [Arithmetica](https://constellation-mc.github.io/commander/Arithmetica).
+Since 1.9.0, the incubator format has been extended to spawn random entities, set NBT, and execute commands as the spawned entity. Since 1.10.0, `/` commands were replaced by [Commander commands](https://constellation-mc.github.io/commander/Commands) and `time` gained support for [Expressions](https://constellation-mc.github.io/commander/Expressions).
 
 The most minimal example is:
 ```json

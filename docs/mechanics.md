@@ -38,7 +38,8 @@ Reduces the range in which the dragon can heal itself with crystals from 32 bloc
 
 All newly generated spikes will be shorter.
 
-## Throwable Items 🥏 <Badge type="tip" text="^0.5.0" />
+## Throwable Items 🥏 <Badge type="tip" text="^0.5.0" /> 
+[![Requires Connector](https://raw.githubusercontent.com/constellation-mc/commander/documentation/docs/public/badges/requires/compacter_vector.svg)](https://modrinth.com/mod/cmd)
 
 Allows throwing certain items, which would otherwise be useless*
 
@@ -113,7 +114,7 @@ Other things:
 | `override_vanilla`  | If true, prevents **ALL** vanilla behaviors from being executed. This should never be used on block items, as it will make the block unplaceable.  |
 | `disabled`  | Disables all behaviors for this item.  |
 | `complement`  | If false, disables all other behaviors.  |
-| `cooldown`  | Set a custom cooldown for your item (in ticks). Accepts numbers and [Arithmetica](https://constellation-mc.github.io/commander/Arithmetica)  |
+| `cooldown`  | Set a custom cooldown for your item (in ticks). Accepts numbers and [Expressions](https://constellation-mc.github.io/commander/Expressions)  |
 
 :::
 
