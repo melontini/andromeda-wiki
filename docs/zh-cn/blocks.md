@@ -33,7 +33,7 @@ description: 方块相关调整
 
 ::: details 自定义行为
 
-从 1.9.0 起，孵蛋器支持生成随机实体，设置 NBT，以及在孵化完成时执行命令。1.10.0 后，`/` 样式的命令被[命令官模组的命令](https://constellation-mc.github.io/commander/Commands)取代了，并且 `time` 支持使用[表达式](https://constellation-mc.github.io/commander/Expressions)。
+从 1.9.0 起，孵蛋器支持生成随机实体，设置 NBT，以及在孵化完成时执行命令。1.10.0 后，`/` 样式的命令被[命令官模组的命令](https://constellation-mc.github.io/commander/zh-cn/Commands)取代了，并且 `time` 支持使用[表达式](https://constellation-mc.github.io/commander/zh-cn/Expressions)。
 
 下面是最简单的例子：
 ```json
