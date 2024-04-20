@@ -34,11 +34,12 @@ description: 一些机制，还有一些数不上名的小玩意
 
 将水晶的治疗距离由 32 降低至 24 格。
 
-### 4. 更短的尖刺
+### 4. 更短的黑曜石柱
 
-让新生成的尖刺更短。
+让新生成的黑曜石柱更短。
 
 ## 可投掷物品 🥏<Badge type="tip" text="^0.5.0" />
+[![需要命令官模组](https://raw.githubusercontent.com/constellation-mc/commander/documentation/docs/public/badges/requires/compacter_vector.svg)](https://modrinth.com/mod/cmd)
 
 使一些 本来可能用不上* 的物品变得可投掷
 
@@ -56,104 +57,64 @@ description: 一些机制，还有一些数不上名的小玩意
 
 :::
 
-现在有一个新的选项：僵尸能投掷物品吗？
+现在有一个新的选项：僵尸能否投掷物品？
 
 若启用，僵尸将能够投掷它们所拾起的可投掷物品。
 
 ::: details 添加自定义投掷行为
 数据包能做的很有限，只能执行命令和生成带颜色的粒子（就像墨囊和染料那样）。
 
-所有自定义行为需要和 `recipes`, `tags`, `loot_tables` 一块，放置在数据包的 `andromeda/item_throw_behavior` 文件夹下。可以任取自定义行为的具体文件名。
+所有自定义行为需要和 `recipes`, `tags`, `loot_tables` 一块，放置在数据包的 `andromeda/item_throw_behavior` 文件夹下，文件名任取。
+1.10.0 版本开始，这个特性通过[命令官](https://modrinth.com/mod/cmd)模组来实现其功能。你可以在它的维基上了解到命令、表达式等的用法。https://constellation-mc.github.io/commander/
 
 例子：
 
 ```json
 {
-  "items": "minecraft:nether_star",
-  "commands": {
-    "on_block": {
-      "hit_block": [
-        "setblock ~ ~ ~ stone"
-      ]
-    },
-    "on_entity": {
-      "hit_entity": "kill @s"
-    },
-    "on_any": {
-      "item": "/summon lightning_bolt ~ ~ ~"
-    }
-  },
-  "cooldown": 204,
-  "complement": false,
-  "particles": {
-    "colors": [255, 255, 255]
-  }
-}
-```
-> 这段代码的意思是，当这个物品击中了方块，会在其接触面放置一块石头；当这个物品击中了实体，会直接杀死之；当这个物品击中了任意东西，都会在击中处生成一道闪电以及白色的粒子效果。
-
-如你所见，语法很简单。
-
-`items` 可以是一个物品，也可以是一长串的物品 ID。
-
-一共有 4 种和事件和 5 种命令执行源：
-
-执行源。应当是一个列表，但如果只选了一个，其他可以忽略不算：
-
-1. `item` 由被投掷物品在消失前的一瞬间执行。
-2. `user` 由物品的投掷者执行。
-3. `server` 从服务端执行。顺带一提，这个不太实用。
-4. `hit_entity` 只在 `on_entity` 事件中有效。由被丢中的实体执行。
-5. `hit_block` 只在 `on_block` 事件中有效。从服务端，在方块的位置上执行。
-
-事件：
-
-1. `on_entity` 当投掷物击中实体时。支持 `hit_entity` 执行源。
-2. `on_block` 当投掷物击中方块时。支持 `hit_block` 执行源。
-3. `on_miss` 当投掷物错过目标时。
-4. `on_any` 包含以上所有情况。永远会在上述事件执行后执行。
-
-这其实也是命令执行的方式。
-
-`commands` 接受带权重的列表！物品落地时，你可以自定义随机事件发生。
-
-```json
-{
-  "items": "minecraft:green_dye",
+  "items": "minecraft:ink_sac",
   "complement": true,
-  "commands": [
+  "events": [
     {
-      "weight": 2,
-      "data": { }
+      "event": "any",
+      "commands": {
+        "type": "andromeda:particles",
+        "selector": "minecraft:direct_killer_entity",
+        "colors": [24, 27, 50]
+      }
     },
     {
-      "weight": 1,
-      "data": {
-        "on_any": {
-          "item": "/summon slime ~ ~ ~"
-        }
+      "event": "entity",
+      "commands": {
+        "type": "commander:commands",
+        "selector": "minecraft:this_entity",
+        "commands": [
+          "/effect give @s minecraft:blindness $(long){{random(4, 7)}} 0 true"
+        ]
       }
     }
-  ],
-  "particles": {
-    "colors": [0, 92, 0]
-  }
+  ]
 }
 ```
 
-其他选项：
+`events` 是一系列对投掷物实体事件的迷你订阅（监听）。
 
-`override_vanilla`：若为 true，阻止执行**所有**原版的行为。因为这会导致方块无法被放置，它永远不应该被用到方块类物品上。
+| 事件  |   |
+|---|---|
+| `block`  | 击中方块时执行  |
+| `entity`  | 击中实体时执行  |
+| `miss`  | 错过目标时执行  |
+| `any`  | 在以上所有事件之后执行  |
 
-`disabled`：禁用该物品的所有自定义投掷行为。
+`commands` 是一系列[命令官模组中的命令](https://constellation-mc.github.io/commander/Commands)。
 
-`complement`：若为 false，自定义的行为将覆盖它原本的行为，若为 true，则将在它执行完原本的行为前执行自定义行为。
+其他：
 
-`cooldown`：为物品设置自定义的冷却时间。
-
-`particles`：若为 true，生成物品被破坏的粒子效果。
-- - `item`：启用/禁用物品破碎粒子效果。
-- - `color`：RGB 格式的颜色（比如 `[0, 34, 255]`）或一个整数。默认为 -1。
+| 参数  |   |
+|---|---|
+| `override_vanilla`  | 若为 true，阻止**所有**原版行为。不推荐用于方块物品，因为你会无法放置它们  |
+| `disabled`  | 阻止该物品的所有行为  |
+| `complement`  | 若为 false，阻止该物品的所有非投掷行为  |
+| `cooldown`  | 设置投掷冷却（刻）。接受数字与[表达式](https://constellation-mc.github.io/commander/Expressions)  |
 
 :::
 
