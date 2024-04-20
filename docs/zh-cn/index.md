@@ -21,18 +21,18 @@ description: 群星模组维基
 
 <br/>
 
-如果你想建议某个特性，别犹豫，发在这里吧：[讨论页面](https://github.com/melontini/andromeda/discussions/categories/ideas)!
+如果你想建议某个特性，别犹豫，发在这里吧：[讨论页面](https://github.com/melontini/andromeda/discussions/categories/ideas)！
 
-**别忘了看看 [模组介绍](/zh-cn/showcases)!** 
+**别忘了看看[模组介绍](/zh-cn/showcases)！** 
 
 <p style="font-size: 200%">💜</p>
 
 ::: danger 注意
-这个模组只能在 Modrinth，CurseForge 和 GitHub 的 Actions 上被下载到。如果你从*其他*任何地方下载这个模组，你的电脑很可能感染类似 [fractureiser](https://github.com/fractureiser-investigation/fractureiser) 的病毒。
+这个模组只能在 Modrinth，CurseForge 和 GitHub 的 Actions 上被下载到。如果你从*其他*任何地方下载这个模组，你的电脑很可能面临感染像 [fractureiser](https://github.com/fractureiser-investigation/fractureiser) 病毒的风险。
 
 这个页面 [拒绝模组再分发](https://stopmodreposts.org/)展示了更详细的信息。
 
-可别怪我没提醒哦！
+切记！
 :::
 
 你可以在这里 [GitHub](https://github.com/melontini/andromeda-wiki) 帮助翻译这个维基！
@@ -41,4 +41,4 @@ description: 群星模组维基
 
 `本网站使用 Cloudflare Web Analytics 进行网站监控。`
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">群星模组维基</span>由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/melontini/andromeda-wiki" property="cc:attributionName" rel="cc:attributionURL">melontini 及其他模组贡献者创作，</a>在 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License 下</a>。
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">群星模组维基</span>由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/melontini/andromeda-wiki" property="cc:attributionName" rel="cc:attributionURL">melontini 及其他模组贡献者创作，</a>采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License 授权。</a>
