@@ -8,7 +8,7 @@ export const zh_cn = defineConfig({
     themeConfig: {
         sidebar: [
             {
-                text: "Features",
+                text: "特性",
                 items: [
                     { text: '主页', link: '/zh-cn/' },
                     { text: '世界', link: '/zh-cn/world' },

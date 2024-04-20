@@ -24,7 +24,7 @@ description: 实体相关调整
 
 ## 僵尸不再拾起垃圾 🧟‍♀️❌🚮<Badge type="tip" text="^1.0.0" />
 
-使僵尸们不再选择拾起垃圾，比如腐肉。如果启用了 [可投掷物品](/zh-cn/mechanics#throwable-items-🥏) 特性，僵尸仍将捡起这些物品（能用就不是垃圾了）。
+使僵尸们不再选择拾起垃圾，比如腐肉。如果启用了[可投掷物品](/zh-cn/mechanics#throwable-items-🥏)特性，僵尸仍将捡起这些物品（能用就不是垃圾了）。
 
 你可以通过编辑 `andromeda:zombies_pick_up` 标签的内容来进行配置！
 
