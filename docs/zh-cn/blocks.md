@@ -7,6 +7,7 @@ description: 方块相关调整
 # 方块
 
 ## 孵蛋器 🐣<Badge type="tip" text="^0.4.5" />
+[![需要命令官模组](https://raw.githubusercontent.com/constellation-mc/commander/documentation/docs/public/badges/requires/compacter_vector.svg)](https://modrinth.com/mod/cmd)
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/incubator.webp" width="520">
 
@@ -28,11 +29,11 @@ description: 方块相关调整
 
 这里是一些额外的设置项：
 
-* 随机化孵化时间，大幅随机化孵蛋器的孵化时间
+* 随机化孵化时间，大幅随机化孵蛋器的孵化时间。
 
 ::: details 自定义行为
 
-从 1.9.0 起，孵蛋器支持生成随机实体，设置 NBT，以及在孵化完成时执行命令。
+从 1.9.0 起，孵蛋器支持生成随机实体，设置 NBT，以及在孵化完成时执行命令。1.10.0 后，`/` 样式的命令被[命令官模组的命令](https://constellation-mc.github.io/commander/Commands)取代了，并且 `time` 支持使用[表达式](https://constellation-mc.github.io/commander/Expressions)。
 
 下面是最简单的例子：
 ```json
@@ -59,7 +60,13 @@ description: 方块相关调整
           "CustomName": "{\"text\":\"Poseidon\"}"
         },
         "commands": [
-          "/say hi!"
+          {
+            "type": "commander:commands",
+            "selector": "this_entity",
+            "commands": [
+              "/say hi!"
+            ]
+          }
         ]
       }
     }
@@ -71,6 +78,11 @@ description: 方块相关调整
 如你所见，`entries` 不但可以接受单个实体，还能接受带权重的列表。`data` 和单个 `entries` 同理。
 
 指令是由生物执行的。与普通的 `/say hi!` 不同，所有玩家都会收到来自海龟 `Poseidon` 的问候消息。
+
+| 命令官语境  |   |
+|---|---|
+| `time`  | `block_state`, `block_entity`, `tool`, `origin`  |
+| `commands`  | `this_entity`, `block_state`, `block_entity`, `tool`, `origin`  |
 
 :::
 
