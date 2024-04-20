@@ -65,7 +65,7 @@ description: 一些机制，还有一些数不上名的小玩意
 数据包能做的很有限，只能执行命令和生成带颜色的粒子（就像墨囊和染料那样）。
 
 所有自定义行为需要和 `recipes`, `tags`, `loot_tables` 一块，放置在数据包的 `andromeda/item_throw_behavior` 文件夹下，文件名任取。
-1.10.0 版本开始，这个特性通过[命令官](https://modrinth.com/mod/cmd)模组来实现其功能。你可以在它的维基上了解到命令、表达式等的用法。https://constellation-mc.github.io/commander/
+1.10.0 版本开始，这个特性通过[命令官](https://modrinth.com/mod/cmd)模组来实现其功能。你可以在它的维基上了解到命令、表达式等的用法。https://constellation-mc.github.io/commander/zh-cn/
 
 例子：
 
@@ -105,7 +105,7 @@ description: 一些机制，还有一些数不上名的小玩意
 | `miss`  | 错过目标时执行  |
 | `any`  | 在以上所有事件之后执行  |
 
-`commands` 是一系列[命令官模组中的命令](https://constellation-mc.github.io/commander/Commands)。
+`commands` 是一系列[命令官模组中的命令](https://constellation-mc.github.io/commander/zh-cn/Commands)。
 
 其他：
 
@@ -114,7 +114,7 @@ description: 一些机制，还有一些数不上名的小玩意
 | `override_vanilla`  | 若为 true，阻止**所有**原版行为。不推荐用于方块物品，因为你会无法放置它们  |
 | `disabled`  | 阻止该物品的所有行为  |
 | `complement`  | 若为 false，阻止该物品的所有非投掷行为  |
-| `cooldown`  | 设置投掷冷却（刻）。接受数字与[表达式](https://constellation-mc.github.io/commander/Expressions)  |
+| `cooldown`  | 设置投掷冷却（刻）。接受数字与[表达式](https://constellation-mc.github.io/commander/zh-cn/Expressions)  |
 
 :::
 
