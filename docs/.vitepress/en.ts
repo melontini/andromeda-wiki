@@ -25,6 +25,7 @@ export const en = defineConfig({
                 text: "Meta",
                 items: [
                     { text: 'Showcases', link: '/showcases' },
+                    { text: 'Assets', link: '/assets' },
                 ]
             }
         ],
