@@ -56,9 +56,23 @@ Shows item durability (in %) if durability is < 100% or item count if count is >
 
 <sub>Works the same way as normal totem, but infinitely...</sub>
 
-* To get one of these "totally not OP" totems, you need to have a level 4 beacon made from diamond or netherite blocks (or both).
-* Now throw a nether star and a totem onto the beacon and watch them ascend.
-* You can also disable ascension in the config and create your own way to get the totem.
+To get one of these "totally not OP" totems, you need to have a level 4 beacon made from diamond and netherite blocks.
+
+The beacon must follow this pattern: 
+
+```
+    B
+   NNN
+  DDDDD
+ NNNNNNN
+DDDDDDDDD
+```
+
+Where N is netherite and D is diamond.
+
+Now throw a nether star and a totem onto the beacon and watch them ascend.
+
+You can also disable ascension in the config and create your own way to get the totem!
 
 ## Balanced Mending ⚒️ <Badge type="tip" text="^0.4" />
 
