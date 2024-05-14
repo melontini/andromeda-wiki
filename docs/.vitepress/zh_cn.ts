@@ -25,7 +25,7 @@ export const zh_cn = defineConfig({
                 text: "Meta",
                 items: [
                     { text: '模组介绍', link: '/zh-cn/showcases' },
-                    { text: '附件', link: '/zh-cn/assets' }
+                    { text: '附件', link: '/zh-cn/assets' },
                 ]
             }
         ],
