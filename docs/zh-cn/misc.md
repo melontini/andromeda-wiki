@@ -57,7 +57,7 @@ description: 其它调整和非调整
 ## 配置表达式 👩‍💻 <Badge type="tip" text="^1.12.0" />
 [![需要命令官模组](https://raw.githubusercontent.com/constellation-mc/commander/documentation/docs/public/badges/requires/compacter_vector.svg)](https://modrinth.com/mod/cmd)
 
-With the new config system introduced in 1.12.0, Andromeda gained support for Commander expressions right in the config. In most cases only `game` configs support expressions.
+在 1.12.0 新引入的配置系统中，配置文件支持使用命令官模组的表达式。大多情况下，只有 `game`（游戏类）配置支持表达式。
 
 ::: warning 注意！
 
