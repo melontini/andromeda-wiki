@@ -6,6 +6,14 @@ description: World related tweaks
 
 # World
 
+## Loot Barrels 💎 <Badge type="tip" text="^1.13.0" />
+
+Adds random barrels with loot to caves!
+
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/world_loot_barrels.webp" width="520">
+
+By default, barrels will contain same loot as a village toolsmith. You should be able to change the loot and decorations by overriding the feature using a data pack!
+
 ## Moist Control 💦 <Badge type="tip" text="^1.4.0" />
 
 Allows you to control farmland hydration range. As simple as that!

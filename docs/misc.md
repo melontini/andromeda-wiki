@@ -83,28 +83,11 @@ This allows you to replace a bunch of boolean toggles and number values with exp
 ```
 
 
-## Scoped Configs 🧩 <Badge type="tip" text="^1.4.0" />
-
-::: warning Experimental & Advanced
-
-This feature is currently experimental and may be unstable!
-
-It's also not very useful for regular players and might be more interesting for modpack creators!
-
-:::
-
-This feature allows advanced control over the Config Scopes. Modules can have any of the following scopes:
-
-- Global (`GLOBAL`): The main config is used in all worlds.
-- World (`WORLD`): Each world has its own config. Located at `{WORLD DIR}/config/andromeda`.
-- Dimension (`DIMENSION`): Each dimension in each world gets its own config. Located in `{DIMENSION DIR}/world_config/andromeda`. For reference: Nether is `DIM-1`, End is `DIM1` and Overworld is the root folder. Modded dimensions may differ.
-
-Only `game` configs can be scoped. `bootstrap`, `main` and `client` configs are global-only. Invalid scopes are logged and reset at startup.
-Once the world config is created - it will no longer be affected by changes in the main config (except for `enabled` and `scope`, of course). In addition, some options ignore scoped configs.
-
-There's one exception, though. Dimension configs can still be modified using data packs. Let's go through those.
+## Data Pack Configs 🧩 <Badge type="tip" text="^1.4.0" />
 
 Datapack configs work similarly to recipes, but instead of the path being your recipe ID, it's Andromeda's module ID. For example: `config/andromeda/world/moist_control.json` becomes `data/{pack id}/andromeda/scoped_config/world/moist_control.json`. These work like overlays, where only the specified options are modified.
+
+Only `game` configs can be overriden using data packs!
 
 Here's an example config that changes farmland moisture:
 
