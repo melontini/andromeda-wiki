@@ -167,3 +167,13 @@ description: 方块相关调整
 使营火设定范围内的玩家获得指定药水效果。
 
 <img alt="一张在夜晚截取的图片。一个玩家站在点亮的营火旁，周围有草与树木。玩家右手持一块食物，左手持一块盾牌。抬头显示有生命恢复效果。" style="display: block; margin-left: auto; margin-right: auto;" src="/images/campfire_effects.webp" width="520">
+
+::: details configuration
+
+| 配置项  | 描述 | [表达式](https://constellation-mc.github.io/commander/zh-cn/Expressions) |
+|---------|-------------|-------------|
+| `affectsPassive` | 是否营火效果影响友善生物？ | ✅ |
+| `effectsRange` | 营火给予效果的范围。 | ✅ |
+| `effectList` | 效果列表。 | ✅ |
+
+:::
