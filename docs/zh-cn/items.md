@@ -18,16 +18,24 @@ description: 物品相关调整
 ## 磁铁 🧲<Badge type="tip" text="^1.1.0" />
 
 <br/>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/magnet.png" width="300">
+<img alt="图片中，游戏内界面展示了 2 级的，最高 5 级的磁铁，以及红石，青金石。绿宝石，钻石，金锭。铜，石英和煤炭。" style="display: block; margin-left: auto; margin-right: auto;" src="/images/magnet.png" width="300">
 
 * 可以吸引指定物品的神奇磁铁。
 * 可通过海洋之心左键升级，最多指定四种物品。
 * 由海洋之心，四块铜锭和两份红石粉制成。
 
+::: details configuration
+
+| 配置项  | 描述 | [表达式](https://constellation-mc.github.io/commander/zh-cn/Expressions) |
+|---------|-------------|-------------|
+| `rangeMultiplier` | $level * rangeMultiplier$ | ✅ |
+
+:::
+
 ## 工具提示 💬<Badge type="tip" text="^0.8.0" />
 
 <br/>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/tooltips.png" width="500">
+<img alt="展示了三个物品：显示距出生点还有 2.4 格的指南针，显示当前时间是 09:06 的时钟，以及显示距死亡点还有 7.5 格的追溯指南针。." style="display: block; margin-left: auto; margin-right: auto;" src="/images/tooltips.png" width="500">
 
 为一些物品的工具提示添加了更多有用的信息。你可以单独禁用它们。
 
@@ -43,6 +51,15 @@ description: 物品相关调整
 
 * 村民的物品栏。
 
+::: details configuration
+
+| 配置项  | 描述 | [表达式](https://constellation-mc.github.io/commander/zh-cn/Expressions) |
+|---------|-------------|-------------|
+| `chance` | 开锁的成功率。 | ✅ |
+| `breakAfterUse` | 开锁器是否使用后销毁？ | ✅ |
+
+:::
+
 ## 更好的物品名显示 ⚒⛏<Badge type="tip" text="^0.4.5" />
 
 在物品耐久有损耗时，显示其耐久度百分比；在物品数量大于一时，显示其数量。
@@ -52,7 +69,7 @@ description: 物品相关调整
 ## 创生图腾 ♾️♥️<Badge type="tip" text="^0.4.3" />
 
 <br/>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/infinite-totem.webp" width="520">
+<img alt="晚上，一个信标在由钻石和下界合金块搭建的结构上。信标向天空发射着明亮的光柱，上面放着一块发光物品展示框，框内是一个拥有白色发光眼睛的图腾。周边的环境有草、有树、有夜空。" style="display: block; margin-left: auto; margin-right: auto;" src="/images/infinite-totem.webp" width="520">
 
 <sub>和普通的不死图腾功能一致，但可以无限使用…</sub>
 
