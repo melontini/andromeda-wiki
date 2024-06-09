@@ -8,7 +8,7 @@ description: Other tweaks and non-tweaks
 
 ## Tiny Storage 📦 <Badge type="warning" text="Experimental" /> <Badge type="tip" text="^1.7.0" />
 
-Allows you to store items in the 2x2 crafting space.
+Store items in the 2x2 crafting space!
 
 By default, this option will follow the `keepInventory` game rule, but can be configured to always keep the items.
 
@@ -30,11 +30,11 @@ The following configuration options are available:
 
 ## Minor Inconvenience 💥 <Badge type="tip" text="^0.4" />
 
-Makes the player explode after taking any damage. Have fun ❤️
+Players will explode after taking any damage. Have fun! ❤️
 
 ## Auto-Update Translations 🔁 <Badge type="tip" text="^0.9.0" />
 
-Tries to download latest translations directly from GitHub.
+Download latest translations directly from GitHub.
 
 This will download, if available, your currently selected language and EN-US.
 

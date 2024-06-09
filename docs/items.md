@@ -18,16 +18,24 @@ A collection of plant-themed pouches!
 ## Magnet 🧲 <Badge type="tip" text="^1.1.0" />
 
 <br/>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/magnet.png" width="300">
+<img alt="Image of an in-game menu showing a magnet item at level 2 out of 5, with various materials displayed including redstone, lapis lazuli, emerald, diamond, gold ingot, copper, quartz, and coal." style="display: block; margin-left: auto; margin-right: auto;" src="/images/magnet.png" width="300">
 
 * This special magnet allows you to select items you want to attract.
 * Can be upgraded 4 additional times by left-clicking with a Heart of the Sea.
 * Crafted from Heart of the Sea, 4 Copper Ingots and 2 Redstone.
 
+::: details configuration
+
+| Config  | Description | [Expressions](https://constellation-mc.github.io/commander/Expressions) |
+|---------|-------------|-------------|
+| `rangeMultiplier` | $level * rangeMultiplier$ | ✅ |
+
+:::
+
 ## Tooltips 💬 <Badge type="tip" text="^0.8.0" />
 
 <br/>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/tooltips.png" width="500">
+<img alt="A display of three items: a Compass showing a distance to spawn of 2.4, a Clock indicating the current time as 09:06, and a Recovery Compass showing a distance to the last death spot of 7.5." style="display: block; margin-left: auto; margin-right: auto;" src="/images/tooltips.png" width="500">
 
 Adds more useful info to various tooltips. You can enable/disable each one.
 
@@ -43,16 +51,25 @@ As of 0.7.0 you can pick:
 
 * Villager inventories.
 
+::: details configuration
+
+| Config  | Description | [Expressions](https://constellation-mc.github.io/commander/Expressions) |
+|---------|-------------|-------------|
+| `chance` | The chance for a lockpick to break. | ✅ |
+| `breakAfterUse` | Should lockpicks break after use? | ✅ |
+
+:::
+
 ## Slightly Better Item Names ⚒⛏ <Badge type="tip" text="^0.4.5" />
 
-Shows item durability (in %) if durability is < 100% or item count if count is > 1
+Show item durability (in %) if durability is < 100% or item count if count is > 1
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/item-names.png" width="350">
 
 ## Infinite Totem of Undying ♾️♥️ <Badge type="tip" text="^0.4.3" />
 
 <br/>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/infinite-totem.webp" width="520">
+<img alt="A Minecraft beacon is shown on a structure made of diamond and netherite blocks at night. The beacon emits a bright vertical beam of light into the sky, and a glowing item frame is displayed beside it, there's a yellow totem with glowing white eyes in it. The surrounding area includes grass and trees under a dark sky." style="display: block; margin-left: auto; margin-right: auto;" src="/images/infinite-totem.webp" width="520">
 
 <sub>Works the same way as normal totem, but infinitely...</sub>
 
@@ -76,7 +93,7 @@ You can also disable ascension in the config and create your own way to get the 
 
 ## Balanced Mending ⚒️ <Badge type="tip" text="^0.4" />
 
-Makes mending a bit less OP by making it remove the "Too Expensive" error instead of repairing items via XP.
+Balances mending a bit, by making it remove the "Too Expensive" error instead of repairing items via XP.
 
 Also sets anvil's XP cap to 40 levels, but not really because the cap is 40 + the amount of repair items.
 
