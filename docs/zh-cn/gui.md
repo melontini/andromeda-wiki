@@ -16,6 +16,8 @@ description: GUI 和屏幕显示的相关调整
 
 为一些 GUI 添加交互时粒子效果：如铁砧，附魔台，熔炉，甚至创造模式下的背包。
 
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/gui_particles.webp" width="520">
+
 配置文件中，你可以调整创造模式背包粒子的速度，或禁用指定 GUI 的粒子效果。
 
 ## 无冒险模式 🏹<Badge type="tip" text="^0.4.15" />
