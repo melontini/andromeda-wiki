@@ -6,11 +6,34 @@ description: 实体相关调整
 
 # 实体
 
+## 恶魂调整 👻 <Badge type="tip" text="^1.11.0" />
+
+目前特性：让恶魂死亡时爆炸。
+
+::: details configuration
+
+| 配置项  | 描述 | [表达式](https://constellation-mc.github.io/commander/Expressions) |
+|---------|-------------|-------------|
+| `explodeOnDeath` | 恶魂是否在死亡时爆炸？ | ✅ |
+| `explosionPower` | 恶魂爆炸的强度。 | ✅ |
+
+:::
+
 ## 脱离载具 🗿<Badge type="tip" text="^1.7.0" />
 
 在原版，船里的生物无论被揍得多惨，都不愿从它的载具上下来。这一特性迫使他们在受伤时脱离载具。
 
 你可以通过修改 `andromeda:escape_vehicles_on_hit` 标签来确定受影响的生物，以及 `andromeda:escapable_vehicle` 标签来确定可被脱离的载具。
+
+::: details configuration
+
+| 配置项  | 描述 | [表达式](https://constellation-mc.github.io/commander/Expressions) |
+|---------|-------------|-------------|
+| `modifier` | 矿车速度的调整数。 | ✅ |
+| `furnaceModifier` | 动力矿车速度的调整数。 | ✅ |
+| `additionalFurnaceFuel` | 动力矿车燃料消耗的调整数。 | ✅ |
+
+:::
 
 ## 矿车速度配置 💨<Badge type="tip" text="^1.5.0" />
 
@@ -54,15 +77,23 @@ description: 实体相关调整
 
 蜜蜂为花朵授粉时，可能像用骨粉催生草那样催生花丛。
 
-<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
+<video alt="视频中，一只蜜蜂从蜂巢中飞出，向铃兰飞去，几秒后，蜜蜂飞离，原本的花朵周围冒出了更多花朵。" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/bee_flowers.webm" type="video/mp4">
   你的浏览器不支持视频标签。
 </video>
 <br/>
-<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
+<video alt="视频中，一直蜜蜂从蜂巢中飞出，向牡丹飞去，几秒后，蜜蜂飞离，原本的花丛周围冒出了更多花朵。" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/bee_double_flowers.webm" type="video/mp4">
   你的浏览器不支持视频标签。
 </video>
+
+::: details configuration
+
+| 配置项  | 描述 | [表达式](https://constellation-mc.github.io/commander/Expressions) |
+|---------|-------------|-------------|
+| `tallFlowers` | 为两格高的花朵启用调整，同时移除默认的花朵催生方法。 | ✅ |
+
+:::
 
 ## 村民跟随绿宝石块 💎<Badge type="tip" text="^0.2.2" />
 
@@ -74,37 +105,24 @@ description: 实体相关调整
 
 对动力矿车做出了一些调整，让它们更实用。
 
-- 燃料现在以整数的形式储存。
-
 - 你能够设置动力矿车的最大燃料承载量（默认 45000，最大 2147483647）。
-
 - 熔炉的燃料现在都可以用于动力矿车。
 
-## 动力矿车攫取燃料 🔥<Badge type="tip" text="^0.4.9" />
-
-使动力矿车能从附近有物品栏的矿车中攫取燃料，比如运输矿车，漏斗矿车，也许还有模组中的矿车。
-
-如果动力矿车已经停下来了，你需要手动推行一下，才能让它继续运行。
+你也可以选择让动力矿车能够从周边的，能装东西的矿车里，比如运输矿车，漏斗矿车（可能也支持模组矿车）中，取用燃料。
+如果动力矿车已经停下来了，你需要手动推行，才能让它继续行驶。
 
 ## 额外的矿车种类 🛤️<Badge type="tip" text="^0.1" />
 
 - 载铁砧的矿车：这可有些重量！
-
 - 载音符盒的矿车：它上面的音符盒和普通的音符盒一样。
-
 - 载唱片机的矿车：欢歌载舞！
 
 ## 额外的船种类 🛶<Badge type="tip" text="^0.2" />
 
 <br/>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/boats.webp" width="520">
-
-* 箱船：玩家们期待已久的箱船（仅 1.18.2）！
+<img alt="截图中，草方块上有物种不同的船。从左到右分别是：箱船，载熔炉的船，载唱片机的船，载TNT的船，以及载漏斗的船。" style="display: block; margin-left: auto; margin-right: auto;" src="/images/boats.webp" width="520">
 
 * 载熔炉的船：谁敢想，有朝一日会有这样的船行于水上！
-
 * 载漏斗的船：快速装入物品。
-
 * 载唱片机的船：航海从未如此有趣！
-
 * 载TNT的船：一触即爆，非常不稳定。
