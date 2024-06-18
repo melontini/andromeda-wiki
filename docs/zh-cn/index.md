@@ -4,8 +4,6 @@ title: 主页
 description: 群星模组维基
 ---
 
-<div style="justify-content: center;text-align: center;">
-
 # 欢迎来到群星模组维基！
 
 
