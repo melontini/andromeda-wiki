@@ -28,7 +28,7 @@ description: 一些机制，还有一些数不上名的小玩意
 
 根据最大在末地的玩家数量提升末影龙生命值。
 
-计算公式：`Math.floor((Math.sqrt(500 * i)) * 10)`，i 为最大玩家数量。
+计算公式：$(\sqrt{500 * x}) * 10$，$x$ 为最大玩家数量。
 
 ### 3. 更短的水晶治疗距离
 
@@ -41,7 +41,7 @@ description: 一些机制，还有一些数不上名的小玩意
 ## 可投掷物品 🥏<Badge type="tip" text="^0.5.0" />
 [![需要命令官模组](https://raw.githubusercontent.com/constellation-mc/commander/documentation/docs/public/badges/requires/compacter_vector.svg)](https://modrinth.com/mod/cmd)
 
-使一些 本来可能用不上* 的物品变得可投掷
+使一些 本来可能用不上* 的物品变得可投掷。
 
 ::: details 0.5.0 版本中，可投掷的物品
 

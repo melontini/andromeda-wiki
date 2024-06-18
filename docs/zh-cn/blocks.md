@@ -9,7 +9,7 @@ description: 方块相关调整
 ## 孵蛋器 🐣<Badge type="tip" text="^0.4.5" />
 [![需要命令官模组](https://raw.githubusercontent.com/constellation-mc/commander/documentation/docs/public/badges/requires/compacter_vector.svg)](https://modrinth.com/mod/cmd)
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/incubator.webp" width="520">
+<img alt="一张孵蛋器的游戏内图片，它是一个顶上有玻璃，装有蛋的木盒子。" style="display: block; margin-left: auto; margin-right: auto;" src="/images/incubator.webp" width="520">
 
 一个方便且实用的孵蛋装置！
 
@@ -79,7 +79,7 @@ description: 方块相关调整
 
 指令是由生物执行的。与普通的 `/say hi!` 不同，所有玩家都会收到来自海龟 `Poseidon` 的问候消息。
 
-| 命令官语境  |   |
+| 命令官上下文  |   |
 |---|---|
 | `time`  | `block_state`, `block_entity`, `tool`, `origin`  |
 | `commands`  | `this_entity`, `block_state`, `block_entity`, `tool`, `origin`  |
@@ -91,7 +91,7 @@ description: 方块相关调整
 
 成熟后，悬挂的红树胎生苗会掉下来。
 
-<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
+<video alt="在红树林沼泽中的延时拍摄，一个红树胎生苗从红树上掉了下来。" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/falling_propagule.webm" type="video/mp4">
   你的浏览器不支持视频标签。
 </video>
@@ -106,13 +106,21 @@ description: 方块相关调整
 
 赋予制箭台界面显示。在界面中，你可以强化弓弦，提高射击准度。
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/fletching.png" width="412">
+<img alt="一张制箭台界面的截图，第一个槽位里是弓，第二个是线，第三个则是强化后的弓。下面的工具提示写着，“强化弓弦剩余次数：7”。" style="display: block; margin-left: auto; margin-right: auto;" src="/images/fletching.png" width="412">
+
+::: details configuration
+
+| 配置项  | 描述 | [表达式](https://constellation-mc.github.io/commander/Expressions) |
+|---------|-------------|-------------|
+| `divergenceModifier` | 决定箭矢的偏离程度。 $div * modifier$ | ✅ |
+
+:::
 
 ## 床无处不炸 🛏️💥<Badge type="tip" text="^0.1" />
 
 一个玩笑式的，让主世界的床也能爆炸的设计。
 
-<video style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
+<video alt="这个视频展示了床在玩家右键后爆炸的情景。" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" width="520" muted autoplay loop>
   <source src="/videos/bed_explosion.webm" type="video/mp4">
   你的浏览器不支持视频标签。
 </video>
@@ -134,11 +142,21 @@ description: 方块相关调整
 
 在高于 1.7.0 的版本，你可以防止玩家破坏被守护的容器。
 
+:: details configuration
+
+| 配置项  | 描述 | [表达式](https://constellation-mc.github.io/commander/zh-cn/Expressions) |
+|---------|-------------|-------------|
+| `range` | 怪物在这个距离内可以守护容器。 | ✅ |
+| `allowLockPicking` | 是否[开锁器](zh-cn/items#lockpick-%F0%9F%94%93)可以无视宝藏守卫？ | ❌ |
+| `breakingHandler` | 被守护的容器是否无法破坏？ | ➖ |
+
+:::
+
 ## 安眠之榻 🛌<Badge type="tip" text="^0.1" />
 
 用一条友好的消息取代床的爆炸。
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/safe_beds.webp" width="520">
+<img alt="靠近传送门，一张红色床在末地石上。背景有末影人和紫色的植物。底部显示消息：“你不能在这里睡觉！”在快捷栏中，有盾牌和其他物品。" style="display: block; margin-left: auto; margin-right: auto;" src="/images/safe_beds.webp" width="520">
 
 ## 树叶缓速 🌿🐌<Badge type="danger" text="过时特性" /> <Badge type="tip" text="^0.1" />
 
@@ -148,4 +166,14 @@ description: 方块相关调整
 
 使营火设定范围内的玩家获得指定药水效果。
 
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/campfire_effects.webp" width="520">
+<img alt="一张在夜晚截取的图片。一个玩家站在点亮的营火旁，周围有草与树木。玩家右手持一块食物，左手持一块盾牌。抬头显示有生命恢复效果。" style="display: block; margin-left: auto; margin-right: auto;" src="/images/campfire_effects.webp" width="520">
+
+::: details configuration
+
+| 配置项  | 描述 | [表达式](https://constellation-mc.github.io/commander/zh-cn/Expressions) |
+|---------|-------------|-------------|
+| `affectsPassive` | 是否营火效果影响友善生物？ | ✅ |
+| `effectsRange` | 营火给予效果的范围。 | ✅ |
+| `effectList` | 效果列表。 | ✅ |
+
+:::

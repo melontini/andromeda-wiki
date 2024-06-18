@@ -8,8 +8,8 @@ description: 群星模组维基
 
 # 欢迎来到群星模组维基！
 
-<a href="https://modrinth.com/mod/andromeda"><img style="margin-left: 5px;" src="https://img.shields.io/modrinth/dt/TseYlb0f?logo=modrinth&color=mint" alt="" height="24" /></a>
-</div>
+
+<a href="https://modrinth.com/mod/andromeda" style="float: left"><img src="https://raw.githubusercontent.com/melontini/mini-badges/main/minecraft/modrinth.svg" alt="可在 Modrinth 下载" height="24" /></a> <a href="https://www.curseforge.com/minecraft/mc-mods/andromeda"><img src="https://raw.githubusercontent.com/melontini/mini-badges/main/minecraft/curseforge.svg" alt="可在 CurseForge 下载" height="24" /></a>
 
 <p style="font-size: 120%">灿若繁星，包罗万象。</p>
 
