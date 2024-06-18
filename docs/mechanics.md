@@ -8,7 +8,7 @@ description: Things and stuff idk
 
 ## Villager Gifting 🎁 <Badge type="tip" text="^0.9.0" />
 
-Allows you to restore some reputation by giving gifts to villagers!
+Restore some reputation by giving gifts to villagers!
 
 This option adds 4 new tags:
 * `andromeda:villager_gifts/major_positive` gives 15 reputation
@@ -22,17 +22,17 @@ You can see default items here: [andromeda/tags/items/villager_gifts/](https://g
 
 ### 1. Respawn Crystals
 
-Makes destroyed end crystals to respawn after ~1.6 - 3 minutes. This makes the fight much harder and a bit more annoying.
+Destroyed end crystals will respawn after ~1.6 - 3 minutes. This makes the fight much harder and a bit more annoying.
 
 ### 2. Scale Health by Max Players
 
-Scales the dragon's health based on the maximum number of players who have been to the end during the fight.
+Scale the dragon's health based on the maximum number of players who have been to the end during the fight.
 
-The formula is this: `Math.floor((Math.sqrt(500 * i)) * 10)`, where i is the number of players.
+The formula is this: $(\sqrt{500 * x}) * 10$, where $x$ is the number of players.
 
 ### 3. Shorter Crystal Tracking Range
 
-Reduces the range in which the dragon can heal itself with crystals from 32 blocks to 24 blocks.
+Reduce the range in which the dragon can heal itself with crystals from 32 blocks to 24 blocks.
 
 ### 4. Shorter Spikes
 
@@ -41,7 +41,7 @@ All newly generated spikes will be shorter.
 ## Throwable Items 🥏 <Badge type="tip" text="^0.5.0" /> 
 [![Requires Commander](https://raw.githubusercontent.com/constellation-mc/commander/documentation/docs/public/badges/requires/compacter_vector.svg)](https://modrinth.com/mod/cmd)
 
-Allows throwing certain items, which would otherwise be useless*
+Throw certain items, which would otherwise be useless*
 
 ::: details Throwable items as of 0.5.0
 

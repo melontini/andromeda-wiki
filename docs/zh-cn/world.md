@@ -6,6 +6,14 @@ description: 世界相关调整
 
 # 世界
 
+## 意外之喜 💎 <Badge type="tip" text="^1.13.0" />
+
+向洞穴内添加了装有战利品的木桶！
+
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/world_loot_barrels.webp" width="520">
+
+木桶的默认战利品与村庄铁匠铺的相同，你可以通过数据包修改战利品表！
+
 ## 湿润机制调整 💦<Badge type="tip" text="^1.4.0" />
 
 让你更够修改耕地的湿润范围，就这样。
@@ -40,6 +48,6 @@ description: 世界相关调整
 
 这一选项是基于数据包的！你可以在[这里](https://github.com/melontini/andromeda/blob/1.19-fabric/src/main/resources/data/andromeda/andromeda/crop_temperatures/crops/minecraft_wheat.json)查看例子，以及更多信息。
 
-## 更快的火焰蔓延 🔥<Badge type="danger" text="过时特性" />  <Badge type="tip" text="^0.2.1" />
+## 凶猛火势 🔥<Badge type="danger" text="过时特性" />  <Badge type="tip" text="^0.2.1" />
 
 使得火势能够蔓延得更快更广。

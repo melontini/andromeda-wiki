@@ -6,15 +6,23 @@ description: World related tweaks
 
 # World
 
+## Loot Barrels 💎 <Badge type="tip" text="^1.13.0" />
+
+Add random barrels with loot to caves!
+
+<img alt="A lantern placed on a barrel block inside a deepslate cave in Minecraft." style="display: block; margin-left: auto; margin-right: auto;" src="/images/world_loot_barrels.webp" width="520">
+
+By default, barrels will contain same loot as a village toolsmith. You should be able to change the loot and decorations by overriding the feature using a data pack!
+
 ## Moist Control 💦 <Badge type="tip" text="^1.4.0" />
 
-Allows you to control farmland hydration range. As simple as that!
+Control farmland hydration range. As simple as that!
 
 ## Self Planting Crops 🌾 <Badge type="tip" text="^0.6.0" />
 
 If possible, plants will plant themselves after some time. Since 0.7.0 you can white/blacklist plants.
 
-Taken from [TinyTweaks](https://www.curseforge.com/minecraft/mc-mods/tinytweaks) by HephaestusDev
+Based on [TinyTweaks](https://www.curseforge.com/minecraft/mc-mods/tinytweaks) by HephaestusDev
 
 ## Falling Bee Nests 🐝 <Badge type="tip" text="^0.1" />
 
@@ -42,5 +50,5 @@ This option is data-driven! Checkout [this](https://github.com/melontini/androme
 
 ## Fast Fire Spread 🔥 <Badge type="danger" text="Deprecated" /> <Badge type="tip" text="^0.2.1" />
 
-Makes fire spread a lot faster and wider.
+Fire will spread much faster and wider.
 

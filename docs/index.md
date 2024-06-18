@@ -4,12 +4,12 @@ title: Home
 description: Andromeda wiki
 ---
 
-<div style="justify-content: center;text-align: center;">
+
 
 # Welcome to the Andromeda wiki!
 
-<a href="https://modrinth.com/mod/andromeda"><img src="https://img.shields.io/modrinth/dt/TseYlb0f?logo=modrinth&color=mint" alt="" height="24" /></a>
-</div>
+
+<a href="https://modrinth.com/mod/andromeda" style="float: left"><img src="https://raw.githubusercontent.com/melontini/mini-badges/main/minecraft/modrinth.svg" alt="Available on Modrinth" height="24" /></a> <a href="https://www.curseforge.com/minecraft/mc-mods/andromeda"><img src="https://raw.githubusercontent.com/melontini/mini-badges/main/minecraft/curseforge.svg" alt="Available on CurseForge" height="24" /></a>
 
 <p style="font-size: 120%">A galaxy is a collection of things and systems. So is this mod.</p>
 
