@@ -147,7 +147,7 @@ description: 方块相关调整
 | 配置项  | 描述 | [表达式](https://constellation-mc.github.io/commander/zh-cn/Expressions) |
 |---------|-------------|-------------|
 | `range` | 怪物在这个距离内可以守护容器。 | ✅ |
-| `allowLockPicking` | 是否[开锁器](zh-cn/items#lockpick-%F0%9F%94%93)可以无视宝藏守卫？ | ❌ |
+| `allowLockPicking` | 是否[开锁器](/zh-cn/items#开锁器-%F0%9F%94%93)可以无视宝藏守卫？ | ❌ |
 | `breakingHandler` | 被守护的容器是否无法破坏？ | ➖ |
 
 :::
