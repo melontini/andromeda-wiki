@@ -8,8 +8,12 @@ description: Andromeda wiki
 
 # Welcome to the Andromeda wiki!
 
+<div class="badge-holder">
 
-<a href="https://modrinth.com/mod/andromeda" style="float: left"><img src="https://raw.githubusercontent.com/melontini/mini-badges/main/minecraft/modrinth.svg" alt="Available on Modrinth" height="24" /></a> <a href="https://www.curseforge.com/minecraft/mc-mods/andromeda"><img src="https://raw.githubusercontent.com/melontini/mini-badges/main/minecraft/curseforge.svg" alt="Available on CurseForge" height="24" /></a>
+[![Available on Modrinth](https://raw.githubusercontent.com/melontini/mini-badges/main/minecraft/modrinth.svg)](https://modrinth.com/mod/andromeda)
+[![Available on CurseForge](https://raw.githubusercontent.com/melontini/mini-badges/main/minecraft/curseforge.svg)](https://www.curseforge.com/minecraft/mc-mods/andromeda)
+
+</div>
 
 <p style="font-size: 120%">A galaxy is a collection of things and systems. So is this mod.</p>
 
@@ -42,4 +46,4 @@ Help translate this wiki on [GitHub](https://github.com/melontini/andromeda-wiki
 
 `This site uses Cloudflare Web Analytics.`
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Andromeda wiki</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/melontini/andromeda-wiki" property="cc:attributionName" rel="cc:attributionURL">melontini and contributors</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/melontini/mini-badges/main/licenses/cc/CC-BY-NC-SA-4.0.svg" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Andromeda wiki</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/melontini/andromeda-wiki" property="cc:attributionName" rel="cc:attributionURL">melontini and contributors</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.

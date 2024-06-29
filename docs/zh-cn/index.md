@@ -6,8 +6,12 @@ description: 群星模组维基
 
 # 欢迎来到群星模组维基！
 
+<div class="badge-holder">
 
-<a href="https://modrinth.com/mod/andromeda" style="float: left"><img src="https://raw.githubusercontent.com/melontini/mini-badges/main/minecraft/modrinth.svg" alt="可在 Modrinth 下载" height="24" /></a> <a href="https://www.curseforge.com/minecraft/mc-mods/andromeda"><img src="https://raw.githubusercontent.com/melontini/mini-badges/main/minecraft/curseforge.svg" alt="可在 CurseForge 下载" height="24" /></a>
+[![可在 Modrinth 下载](https://raw.githubusercontent.com/melontini/mini-badges/main/minecraft/modrinth.svg)](https://modrinth.com/mod/andromeda)
+[![可在 CurseForge 下载](https://raw.githubusercontent.com/melontini/mini-badges/main/minecraft/curseforge.svg)](https://www.curseforge.com/minecraft/mc-mods/andromeda)
+
+</div>
 
 <p style="font-size: 120%">灿若繁星，包罗万象。</p>
 
@@ -39,4 +43,4 @@ description: 群星模组维基
 
 `本网站使用 Cloudflare Web Analytics 进行网站监控。`
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">群星模组维基</span>由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/melontini/andromeda-wiki" property="cc:attributionName" rel="cc:attributionURL">melontini 及其他模组贡献者</a>创作，采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a> 授权。
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/melontini/mini-badges/main/licenses/cc/CC-BY-NC-SA-4.0.svg" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">群星模组维基</span>由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/melontini/andromeda-wiki" property="cc:attributionName" rel="cc:attributionURL">melontini 及其他模组贡献者</a>创作，采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a> 授权。
